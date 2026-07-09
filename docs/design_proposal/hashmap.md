@@ -94,6 +94,8 @@ Responsibilities:
 - Initialize `lst_count` and `load_factor`
 
 ---
+### MEMMORY DIAGRAM
+![memory diagram](/docs/design_proposal/images/images/ChatGPT%20Image%20Jul%208,%202026,%2005_08_16%20PM.png)
 
 ## Hash Function
 
