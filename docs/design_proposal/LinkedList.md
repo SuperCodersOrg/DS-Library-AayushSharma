@@ -255,9 +255,9 @@ Here, **`n`** represents the number of nodes in the linked list.
 
 ---
 
-## `T& get(int index)`
+## `T& operator[](int index)`
 
-The `get(int index)` function returns the element stored at the specified index.
+The `operator[](int index)` function returns the element stored at the specified index.
 
 Unlike arrays, linked lists do not support direct address calculation using an index. Therefore, the function must traverse the list from the head until the required node is reached.
 
@@ -278,54 +278,6 @@ The function returns a reference (`T&`) instead of a copy. This avoids unnecessa
 ### Time Complexity
 
 - **Best Case:** `O(1)` when accessing the first node
-- **Average Case:** `O(n)`
-- **Worst Case:** `O(n)`
-
-Here, **`n`** represents the number of nodes in the linked list.
-
----
-
-## `int search(T val)`
-
-The `search(T val)` function searches for a specified value in the linked list.
-
-The search starts from the head node and checks each node sequentially. Each stored value is compared with the supplied value using the equality operator (`==`). If a match is found, the function returns the index of the first matching node. If no match is found, it returns `-1`.
-
-### Parameter
-
-- **`T val`**: The value to search for.
-
-### Return Type
-
-- **`int`**: The index of the first matching value, or `-1` if the value is not found.
-
-### Time Complexity
-
-- **Best Case:** `O(1)` when the value is stored at the head node
-- **Average Case:** `O(n)`
-- **Worst Case:** `O(n)`
-
-Here, **`n`** represents the number of nodes in the linked list.
-
----
-
-## `void traverse()`
-
-The `traverse()` function visits every node in the linked list and displays each stored element.
-
-Traversal starts from the head and continues by following `next` pointers until the end of the list is reached. The function does not modify the linked list.
-
-### Parameter
-
-- **None**
-
-### Return Type
-
-- **`void`**: The function displays all elements and does not return a value.
-
-### Time Complexity
-
-- **Best Case:** `O(n)`
 - **Average Case:** `O(n)`
 - **Worst Case:** `O(n)`
 
@@ -409,33 +361,9 @@ Here, **`n`** represents the number of nodes in the linked list.
 
 ---
 
-## `void clear()`
-
-The `clear()` function removes all nodes from the linked list.
-
-The function traverses the list from the head node and deletes each node one by one. After all nodes are removed, `head` is set to `nullptr`, and `size` is set to `0`.
-
-### Parameter
-
-- **None**
-
-### Return Type
-
-- **`void`**: The function removes all nodes from the linked list.
-
-### Time Complexity
-
-- **Best Case:** `O(n)`
-- **Average Case:** `O(n)`
-- **Worst Case:** `O(n)`
-
-Here, **`n`** represents the number of nodes in the linked list.
-
----
-
 ## `int getSize()`
 
-The `getSize()` function returns the current number of nodes in the linked list.
+The `Size()` function returns the current number of nodes in the linked list.
 
 Since the class maintains a separate `size` variable, this function returns that value directly without traversing the list.
 
@@ -545,14 +473,11 @@ The following table summarizes the time complexity of each public member functio
 | `pop_front()` | `O(1)` | `O(1)` | `O(1)` | Only updates the head pointer. |
 | `pop_back()` | `O(1)` | `O(n)` | `O(n)` | Traverses to the second-last node unless only one node exists. |
 | `deleteAtIndex()` | `O(1)` | `O(n)` | `O(n)` | Boundary deletion is constant; middle deletion requires traversal. |
-| `get()` | `O(1)` | `O(n)` | `O(n)` | Traverses from the head to the required index. |
-| `search()` | `O(1)` | `O(n)` | `O(n)` | Checks nodes sequentially until a match is found. |
-| `traverse()` | `O(n)` | `O(n)` | `O(n)` | Visits every node once. |
+| `operator[]()` | `O(1)` | `O(n)` | `O(n)` | Traverses from the head to the required index. |
 | `isEmpty()` | `O(1)` | `O(1)` | `O(1)` | Compares the stored size with zero. |
 | `front()` | `O(1)` | `O(1)` | `O(1)` | Directly returns the head node's data. |
 | `back()` | `O(1)` | `O(n)` | `O(n)` | Traverses to the last node unless only one node exists. |
-| `clear()` | `O(n)` | `O(n)` | `O(n)` | Deletes every node exactly once. |
-| `getSize()` | `O(1)` | `O(1)` | `O(1)` | Directly returns the stored size value. |
+| `Size()` | `O(1)` | `O(1)` | `O(1)` | Directly returns the stored size value. |
 
 ## Complexity Analysis
 
@@ -560,7 +485,7 @@ The linked list provides efficient insertion and deletion at the beginning becau
 
 Accessing an element by index takes `O(n)` time because the list must be traversed from the head node. Searching also takes `O(n)` in the average and worst cases because each node may need to be checked.
 
-Maintaining the `size` variable allows `getSize()` and `isEmpty()` to run in `O(1)` time. The `front()` function is also `O(1)` because the head pointer directly stores the first node. The `back()` function is `O(n)` in a singly linked list because there is no direct pointer to the last node.
+Maintaining the `size` variable allows `Size()` and `isEmpty()` to run in `O(1)` time. The `front()` function is also `O(1)` because the head pointer directly stores the first node. The `back()` function is `O(n)` in a singly linked list because there is no direct pointer to the last node.
 
 ---
 
@@ -594,9 +519,9 @@ When a node is inserted, memory is allocated only for that node. When a node is 
 
 A dedicated `size` variable stores the current number of nodes. Updating this variable after every insertion and deletion allows the list size to be obtained in constant time.
 
-The public function `getSize()` returns this value. It serves the same purpose as a `size()` function in many container libraries, but the name `getSize()` is used here to keep it clear and avoid confusion with the internal `size` data member.
+The public function `Size()` returns this value. It serves the same purpose as a `size()` function in many container libraries, but the name `Size()` is used here to keep it clear and avoid confusion with the internal `size` data member.
 
-## Returning a Reference from `get()`
+## Returning a Reference from `operator[]()`
 
 The `get()` function returns a reference (`T&`) instead of a copy. This avoids unnecessary copying and allows direct modification of the stored element when required.
 

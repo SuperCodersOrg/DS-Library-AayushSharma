@@ -3,6 +3,7 @@
 A **dynamic array** is a data structure whose size can grow or shrink during program execution. Unlike a static array, a dynamic array automatically allocates more memory when its current capacity is exhausted.
 
 The public API provides the functions that users can call to perform common operations such as insertion, deletion, searching, and querying the state of the dynamic array.
+---
 **WE ARE IMPLEMENTING FOR GENERIC POINT OF VIEW**
 ## Functions
 
