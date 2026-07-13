@@ -1,6 +1,6 @@
 #include<iostream>
-// #include "Vector.h"
-// #include "List.h"
+#include "Vector.h"
+#include "List.h"
 #include "Hashmap.h"
 #include "List.h"
 using namespace std ;
@@ -29,11 +29,22 @@ int main(){
 Student s1(2);
 Student s2(3);
 Student s3(4);
-Linkedlist<Student>lst;
-lst.push(s1);
-lst.push(s2);
-lst.push(s3);
-cout<<lst[5].id;
+Hashmap<Student,int>hs;
+hs.insert(s1,2);
+hs.insert(s2,3);
+hs.insert(s3,4);
+cout<<hs[s2]<<endl;
+Hashmap<Student,int>hs2;
+Student s4(100);
+Student s5(200);
+Student s6(300);
+hs2.insert(s4,2);
+hs2.insert(s5,3);
+hs2.insert(s6,4);
+cout<<hs2[s5]<<endl;
+hs2=hs;
+cout<<hs2[s1]<<endl;
+
 return 0;
  
 }

@@ -981,10 +981,13 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/aayushsharma/dslibrary/src/main.cpp \
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/21/share/asan_ignorelist.txt \
   /Users/aayushsharma/dslibrary/include/Hashmap.h \
   /Users/aayushsharma/dslibrary/include/Hashmap.tpp \
   /Users/aayushsharma/dslibrary/include/List.h \
-  /Users/aayushsharma/dslibrary/include/List.tpp
+  /Users/aayushsharma/dslibrary/include/List.tpp \
+  /Users/aayushsharma/dslibrary/include/Vector.h \
+  /Users/aayushsharma/dslibrary/include/Vector.tpp
 
 
 /Users/aayushsharma/dslibrary/include/List.tpp:
@@ -1193,6 +1196,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/aayushsharma/dslibrary/src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:
 
+/Library/Developer/CommandLineTools/usr/lib/clang/21/share/asan_ignorelist.txt:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
@@ -1268,6 +1273,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/aayushsharma/dslibrary/src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/as_const.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
+
+/Users/aayushsharma/dslibrary/include/Vector.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_fill_n.h:
 
@@ -2022,6 +2029,8 @@ CMakeFiles/main.dir/src/main.cpp.o: /Users/aayushsharma/dslibrary/src/main.cpp \
 /Library/Developer/CommandLineTools/usr/lib/clang/21/include/ptrcheck.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
+
+/Users/aayushsharma/dslibrary/include/Vector.tpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
 

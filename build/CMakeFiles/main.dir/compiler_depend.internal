@@ -982,8 +982,11 @@ CMakeFiles/main.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/21/include/stdint.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/21/share/asan_ignorelist.txt
  /Users/aayushsharma/dslibrary/include/Hashmap.h
  /Users/aayushsharma/dslibrary/include/Hashmap.tpp
  /Users/aayushsharma/dslibrary/include/List.h
  /Users/aayushsharma/dslibrary/include/List.tpp
+ /Users/aayushsharma/dslibrary/include/Vector.h
+ /Users/aayushsharma/dslibrary/include/Vector.tpp
 
