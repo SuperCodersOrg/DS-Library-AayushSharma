@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/aayushsharma/dslibrary/include
+CXX_INCLUDES = -I/Users/aayushsharma/dslibrary/include -I/Users/aayushsharma/dslibrary/src
 
 CXX_FLAGSarm64 =  -g -fsanitize=address,undefined -std=gnu++20 -arch arm64
 

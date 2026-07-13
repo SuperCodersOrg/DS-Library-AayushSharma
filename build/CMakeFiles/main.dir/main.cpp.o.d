@@ -1,6 +1,6 @@
-CMakeFiles/main.dir/src/main.cpp.o: \
+CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/21/share/asan_ignorelist.txt \
-  /Users/aayushsharma/dslibrary/src/main.cpp \
+  /Users/aayushsharma/dslibrary/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -980,9 +980,9 @@ CMakeFiles/main.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Users/aayushsharma/dslibrary/include/Vector.h \
-  /Users/aayushsharma/dslibrary/include/Vector.tpp \
+  /Users/aayushsharma/dslibrary/include/../src/Vector.tpp \
   /Users/aayushsharma/dslibrary/include/List.h \
-  /Users/aayushsharma/dslibrary/include/List.tpp \
+  /Users/aayushsharma/dslibrary/include/../src/List.tpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Users/aayushsharma/dslibrary/include/Hashmap.h \
-  /Users/aayushsharma/dslibrary/include/Hashmap.tpp
+  /Users/aayushsharma/dslibrary/include/../src/Hashmap.tpp

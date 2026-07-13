@@ -2,60 +2,70 @@
 #define HASHMAP_H
 
 #include <iostream>
+#include <string>
 #include <sstream>
-#include <cstdlib>
 
+#include "Vector.h"
+#include "List.h"
 
+using namespace std;
 
-class Hashcode {
+//================ Hashcode =================//
+
+class Hashcode
+{
 public:
     Hashcode();
 
     int hash(const int s, int size);
-    int hash(const std::string s, int size);
+    int hash(const string s, int size);
     int hash(const char a, int size);
 
     template<typename T>
     int hash(const T& obj, int size);
 };
 
-template<typename K, typename V>
-class Node {
-public:
-    K first;
-    V second;
-    Node<K,V>* next;
+//================ HashNode =================//
 
-    Node(const K keyusr, const V value);
-    ~Node();
+template<typename K, typename V>
+class HashNode
+{
+public:
+    K Key;
+    V Value;
+
+    HashNode(const K& key, const V& value);
+
+    bool operator==(const HashNode& hs) const;
+    bool operator!=(const HashNode& hs) const;
 };
 
+//================ HashMap =================//
+
 template<typename K, typename V>
-class Hashmap {
-private:
-    Node<K,V>** bucket;
-    int size;
-    int lst_count;
+class HashMap
+{
+public:
+    Vector<Linkedlist<HashNode<K,V>>> v;
+    int count;
     float load_factor;
 
-public:
-    Hashmap();
-    Hashmap(const Hashmap& hp);
-    Hashmap& operator=(const Hashmap& hp);
-    ~Hashmap();
+    HashMap();
+    HashMap(const HashMap& hs);
+
+    HashMap& operator=(const HashMap& hs);
 
     void rehash();
-    void insert(const K& key, const V& value);
-    void pop(const K& key);
-    V* find(const K& key);
-    V& operator[](const K& key);
 
-    int Size();
-    bool isempty();
+    void push(const K& key, const V& val);
+
+    HashNode<K,V>* find(const K& key);
+
+    void pop(const K& key);
+
+    V& operator[](const K& key);
 };
 
+#include "../src/Hashmap.tpp"
 
-
-#include "Hashmap.tpp"
-
-#endif
+#endif // HASHMAP_H

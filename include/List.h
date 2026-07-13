@@ -6,20 +6,20 @@
 #include <stdexcept>
 
 template<typename T>
-class ListNode {
+class Node{
 public:
-    ListNode<T>* next;
+    Node<T>* next;
     T value;
 
-    ListNode(T val);
-    ~ListNode();
+    Node(T val);
+    ~Node();
 };
 
 template<typename T>
-class Linkedlist {
+class Linkedlist{
 public:
-    ListNode<T>* head;
-    ListNode<T>* tail;
+    Node<T>* head;
+    Node<T>* tail;
     int count;
 
     Linkedlist();
@@ -29,6 +29,10 @@ public:
 
     void push(T& val);
     void pop();
+    void delete_any(T& val);
+
+    Node<T>* begin()const;
+    Node<T>* end()const;
 
     int Size();
     bool isempty();
@@ -36,6 +40,6 @@ public:
     T& operator[](int idx);
 };
 
-#include "List.tpp"
+#include "../src/List.tpp"
 
 #endif
