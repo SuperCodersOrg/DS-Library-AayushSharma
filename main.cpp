@@ -38,7 +38,8 @@ int main()
     Student s3(103,"Aayush");
     Student s4(104,"Rahul");
 
-
+int* p = new int[5];
+p[10] = 100;  // Out of bounds
 
     hm.push(s1,"C++");
     hm.push(s2,"DSA");

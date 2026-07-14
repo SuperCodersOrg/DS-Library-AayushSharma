@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /Users/aayushsharma/dslibrary/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/opt/homebrew/bin/ctest $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -84,6 +94,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"gmock\" \"gtest\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,24 +172,89 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named DSLibrary
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+DSLibrary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DSLibrary
+.PHONY : DSLibrary
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+DSLibrary/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSLibrary.dir/build.make CMakeFiles/DSLibrary.dir/build
+.PHONY : DSLibrary/fast
+
+#=============================================================================
+# Target rules for targets named runTests
+
+# Build rule for target.
+runTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runTests
+.PHONY : runTests
+
+# fast build rule for target.
+runTests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/build
+.PHONY : runTests/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSLibrary.dir/build.make CMakeFiles/DSLibrary.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +262,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSLibrary.dir/build.make CMakeFiles/DSLibrary.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,8 +270,536 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSLibrary.dir/build.make CMakeFiles/DSLibrary.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+tests/test_linkedlist/test_linkedlist_assignment.o: tests/test_linkedlist/test_linkedlist_assignment.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_assignment.o
+
+# target to build an object file
+tests/test_linkedlist/test_linkedlist_assignment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_assignment.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_assignment.cpp.o
+
+tests/test_linkedlist/test_linkedlist_assignment.i: tests/test_linkedlist/test_linkedlist_assignment.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_assignment.i
+
+# target to preprocess a source file
+tests/test_linkedlist/test_linkedlist_assignment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_assignment.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_assignment.cpp.i
+
+tests/test_linkedlist/test_linkedlist_assignment.s: tests/test_linkedlist/test_linkedlist_assignment.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_assignment.s
+
+# target to generate assembly for a file
+tests/test_linkedlist/test_linkedlist_assignment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_assignment.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_assignment.cpp.s
+
+tests/test_linkedlist/test_linkedlist_constructor.o: tests/test_linkedlist/test_linkedlist_constructor.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_constructor.o
+
+# target to build an object file
+tests/test_linkedlist/test_linkedlist_constructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_constructor.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_constructor.cpp.o
+
+tests/test_linkedlist/test_linkedlist_constructor.i: tests/test_linkedlist/test_linkedlist_constructor.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_constructor.i
+
+# target to preprocess a source file
+tests/test_linkedlist/test_linkedlist_constructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_constructor.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_constructor.cpp.i
+
+tests/test_linkedlist/test_linkedlist_constructor.s: tests/test_linkedlist/test_linkedlist_constructor.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_constructor.s
+
+# target to generate assembly for a file
+tests/test_linkedlist/test_linkedlist_constructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_constructor.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_constructor.cpp.s
+
+tests/test_linkedlist/test_linkedlist_copy_constructor.o: tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_copy_constructor.o
+
+# target to build an object file
+tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.o
+
+tests/test_linkedlist/test_linkedlist_copy_constructor.i: tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_copy_constructor.i
+
+# target to preprocess a source file
+tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.i
+
+tests/test_linkedlist/test_linkedlist_copy_constructor.s: tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_copy_constructor.s
+
+# target to generate assembly for a file
+tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.s
+
+tests/test_linkedlist/test_linkedlist_delete_any.o: tests/test_linkedlist/test_linkedlist_delete_any.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_delete_any.o
+
+# target to build an object file
+tests/test_linkedlist/test_linkedlist_delete_any.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_delete_any.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_delete_any.cpp.o
+
+tests/test_linkedlist/test_linkedlist_delete_any.i: tests/test_linkedlist/test_linkedlist_delete_any.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_delete_any.i
+
+# target to preprocess a source file
+tests/test_linkedlist/test_linkedlist_delete_any.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_delete_any.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_delete_any.cpp.i
+
+tests/test_linkedlist/test_linkedlist_delete_any.s: tests/test_linkedlist/test_linkedlist_delete_any.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_delete_any.s
+
+# target to generate assembly for a file
+tests/test_linkedlist/test_linkedlist_delete_any.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_delete_any.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_delete_any.cpp.s
+
+tests/test_linkedlist/test_linkedlist_isempty.o: tests/test_linkedlist/test_linkedlist_isempty.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_isempty.o
+
+# target to build an object file
+tests/test_linkedlist/test_linkedlist_isempty.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_isempty.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_isempty.cpp.o
+
+tests/test_linkedlist/test_linkedlist_isempty.i: tests/test_linkedlist/test_linkedlist_isempty.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_isempty.i
+
+# target to preprocess a source file
+tests/test_linkedlist/test_linkedlist_isempty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_isempty.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_isempty.cpp.i
+
+tests/test_linkedlist/test_linkedlist_isempty.s: tests/test_linkedlist/test_linkedlist_isempty.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_isempty.s
+
+# target to generate assembly for a file
+tests/test_linkedlist/test_linkedlist_isempty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_isempty.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_isempty.cpp.s
+
+tests/test_linkedlist/test_linkedlist_operator_index.o: tests/test_linkedlist/test_linkedlist_operator_index.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_operator_index.o
+
+# target to build an object file
+tests/test_linkedlist/test_linkedlist_operator_index.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_operator_index.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_operator_index.cpp.o
+
+tests/test_linkedlist/test_linkedlist_operator_index.i: tests/test_linkedlist/test_linkedlist_operator_index.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_operator_index.i
+
+# target to preprocess a source file
+tests/test_linkedlist/test_linkedlist_operator_index.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_operator_index.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_operator_index.cpp.i
+
+tests/test_linkedlist/test_linkedlist_operator_index.s: tests/test_linkedlist/test_linkedlist_operator_index.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_operator_index.s
+
+# target to generate assembly for a file
+tests/test_linkedlist/test_linkedlist_operator_index.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_operator_index.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_operator_index.cpp.s
+
+tests/test_linkedlist/test_linkedlist_pop.o: tests/test_linkedlist/test_linkedlist_pop.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_pop.o
+
+# target to build an object file
+tests/test_linkedlist/test_linkedlist_pop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_pop.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_pop.cpp.o
+
+tests/test_linkedlist/test_linkedlist_pop.i: tests/test_linkedlist/test_linkedlist_pop.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_pop.i
+
+# target to preprocess a source file
+tests/test_linkedlist/test_linkedlist_pop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_pop.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_pop.cpp.i
+
+tests/test_linkedlist/test_linkedlist_pop.s: tests/test_linkedlist/test_linkedlist_pop.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_pop.s
+
+# target to generate assembly for a file
+tests/test_linkedlist/test_linkedlist_pop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_pop.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_pop.cpp.s
+
+tests/test_linkedlist/test_linkedlist_push.o: tests/test_linkedlist/test_linkedlist_push.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_push.o
+
+# target to build an object file
+tests/test_linkedlist/test_linkedlist_push.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_push.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_push.cpp.o
+
+tests/test_linkedlist/test_linkedlist_push.i: tests/test_linkedlist/test_linkedlist_push.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_push.i
+
+# target to preprocess a source file
+tests/test_linkedlist/test_linkedlist_push.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_push.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_push.cpp.i
+
+tests/test_linkedlist/test_linkedlist_push.s: tests/test_linkedlist/test_linkedlist_push.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_push.s
+
+# target to generate assembly for a file
+tests/test_linkedlist/test_linkedlist_push.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_push.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_push.cpp.s
+
+tests/test_linkedlist/test_linkedlist_size.o: tests/test_linkedlist/test_linkedlist_size.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_size.o
+
+# target to build an object file
+tests/test_linkedlist/test_linkedlist_size.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_size.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_size.cpp.o
+
+tests/test_linkedlist/test_linkedlist_size.i: tests/test_linkedlist/test_linkedlist_size.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_size.i
+
+# target to preprocess a source file
+tests/test_linkedlist/test_linkedlist_size.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_size.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_size.cpp.i
+
+tests/test_linkedlist/test_linkedlist_size.s: tests/test_linkedlist/test_linkedlist_size.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_size.s
+
+# target to generate assembly for a file
+tests/test_linkedlist/test_linkedlist_size.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_size.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_size.cpp.s
+
+tests/test_linkedlist/test_linkedlist_userdefined.o: tests/test_linkedlist/test_linkedlist_userdefined.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_userdefined.o
+
+# target to build an object file
+tests/test_linkedlist/test_linkedlist_userdefined.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_userdefined.cpp.o
+.PHONY : tests/test_linkedlist/test_linkedlist_userdefined.cpp.o
+
+tests/test_linkedlist/test_linkedlist_userdefined.i: tests/test_linkedlist/test_linkedlist_userdefined.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_userdefined.i
+
+# target to preprocess a source file
+tests/test_linkedlist/test_linkedlist_userdefined.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_userdefined.cpp.i
+.PHONY : tests/test_linkedlist/test_linkedlist_userdefined.cpp.i
+
+tests/test_linkedlist/test_linkedlist_userdefined.s: tests/test_linkedlist/test_linkedlist_userdefined.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_userdefined.s
+
+# target to generate assembly for a file
+tests/test_linkedlist/test_linkedlist_userdefined.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_userdefined.cpp.s
+.PHONY : tests/test_linkedlist/test_linkedlist_userdefined.cpp.s
+
+tests/test_main.o: tests/test_main.cpp.o
+.PHONY : tests/test_main.o
+
+# target to build an object file
+tests/test_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_main.cpp.o
+.PHONY : tests/test_main.cpp.o
+
+tests/test_main.i: tests/test_main.cpp.i
+.PHONY : tests/test_main.i
+
+# target to preprocess a source file
+tests/test_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_main.cpp.i
+.PHONY : tests/test_main.cpp.i
+
+tests/test_main.s: tests/test_main.cpp.s
+.PHONY : tests/test_main.s
+
+# target to generate assembly for a file
+tests/test_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_main.cpp.s
+.PHONY : tests/test_main.cpp.s
+
+tests/test_vector.o: tests/test_vector.cpp.o
+.PHONY : tests/test_vector.o
+
+# target to build an object file
+tests/test_vector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector.cpp.o
+.PHONY : tests/test_vector.cpp.o
+
+tests/test_vector.i: tests/test_vector.cpp.i
+.PHONY : tests/test_vector.i
+
+# target to preprocess a source file
+tests/test_vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector.cpp.i
+.PHONY : tests/test_vector.cpp.i
+
+tests/test_vector.s: tests/test_vector.cpp.s
+.PHONY : tests/test_vector.s
+
+# target to generate assembly for a file
+tests/test_vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector.cpp.s
+.PHONY : tests/test_vector.cpp.s
+
+tests/test_vector/test_vector_assignment.o: tests/test_vector/test_vector_assignment.cpp.o
+.PHONY : tests/test_vector/test_vector_assignment.o
+
+# target to build an object file
+tests/test_vector/test_vector_assignment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_assignment.cpp.o
+.PHONY : tests/test_vector/test_vector_assignment.cpp.o
+
+tests/test_vector/test_vector_assignment.i: tests/test_vector/test_vector_assignment.cpp.i
+.PHONY : tests/test_vector/test_vector_assignment.i
+
+# target to preprocess a source file
+tests/test_vector/test_vector_assignment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_assignment.cpp.i
+.PHONY : tests/test_vector/test_vector_assignment.cpp.i
+
+tests/test_vector/test_vector_assignment.s: tests/test_vector/test_vector_assignment.cpp.s
+.PHONY : tests/test_vector/test_vector_assignment.s
+
+# target to generate assembly for a file
+tests/test_vector/test_vector_assignment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_assignment.cpp.s
+.PHONY : tests/test_vector/test_vector_assignment.cpp.s
+
+tests/test_vector/test_vector_capacity.o: tests/test_vector/test_vector_capacity.cpp.o
+.PHONY : tests/test_vector/test_vector_capacity.o
+
+# target to build an object file
+tests/test_vector/test_vector_capacity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_capacity.cpp.o
+.PHONY : tests/test_vector/test_vector_capacity.cpp.o
+
+tests/test_vector/test_vector_capacity.i: tests/test_vector/test_vector_capacity.cpp.i
+.PHONY : tests/test_vector/test_vector_capacity.i
+
+# target to preprocess a source file
+tests/test_vector/test_vector_capacity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_capacity.cpp.i
+.PHONY : tests/test_vector/test_vector_capacity.cpp.i
+
+tests/test_vector/test_vector_capacity.s: tests/test_vector/test_vector_capacity.cpp.s
+.PHONY : tests/test_vector/test_vector_capacity.s
+
+# target to generate assembly for a file
+tests/test_vector/test_vector_capacity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_capacity.cpp.s
+.PHONY : tests/test_vector/test_vector_capacity.cpp.s
+
+tests/test_vector/test_vector_constructor.o: tests/test_vector/test_vector_constructor.cpp.o
+.PHONY : tests/test_vector/test_vector_constructor.o
+
+# target to build an object file
+tests/test_vector/test_vector_constructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_constructor.cpp.o
+.PHONY : tests/test_vector/test_vector_constructor.cpp.o
+
+tests/test_vector/test_vector_constructor.i: tests/test_vector/test_vector_constructor.cpp.i
+.PHONY : tests/test_vector/test_vector_constructor.i
+
+# target to preprocess a source file
+tests/test_vector/test_vector_constructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_constructor.cpp.i
+.PHONY : tests/test_vector/test_vector_constructor.cpp.i
+
+tests/test_vector/test_vector_constructor.s: tests/test_vector/test_vector_constructor.cpp.s
+.PHONY : tests/test_vector/test_vector_constructor.s
+
+# target to generate assembly for a file
+tests/test_vector/test_vector_constructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_constructor.cpp.s
+.PHONY : tests/test_vector/test_vector_constructor.cpp.s
+
+tests/test_vector/test_vector_copy_constructor.o: tests/test_vector/test_vector_copy_constructor.cpp.o
+.PHONY : tests/test_vector/test_vector_copy_constructor.o
+
+# target to build an object file
+tests/test_vector/test_vector_copy_constructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_copy_constructor.cpp.o
+.PHONY : tests/test_vector/test_vector_copy_constructor.cpp.o
+
+tests/test_vector/test_vector_copy_constructor.i: tests/test_vector/test_vector_copy_constructor.cpp.i
+.PHONY : tests/test_vector/test_vector_copy_constructor.i
+
+# target to preprocess a source file
+tests/test_vector/test_vector_copy_constructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_copy_constructor.cpp.i
+.PHONY : tests/test_vector/test_vector_copy_constructor.cpp.i
+
+tests/test_vector/test_vector_copy_constructor.s: tests/test_vector/test_vector_copy_constructor.cpp.s
+.PHONY : tests/test_vector/test_vector_copy_constructor.s
+
+# target to generate assembly for a file
+tests/test_vector/test_vector_copy_constructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_copy_constructor.cpp.s
+.PHONY : tests/test_vector/test_vector_copy_constructor.cpp.s
+
+tests/test_vector/test_vector_isempty.o: tests/test_vector/test_vector_isempty.cpp.o
+.PHONY : tests/test_vector/test_vector_isempty.o
+
+# target to build an object file
+tests/test_vector/test_vector_isempty.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_isempty.cpp.o
+.PHONY : tests/test_vector/test_vector_isempty.cpp.o
+
+tests/test_vector/test_vector_isempty.i: tests/test_vector/test_vector_isempty.cpp.i
+.PHONY : tests/test_vector/test_vector_isempty.i
+
+# target to preprocess a source file
+tests/test_vector/test_vector_isempty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_isempty.cpp.i
+.PHONY : tests/test_vector/test_vector_isempty.cpp.i
+
+tests/test_vector/test_vector_isempty.s: tests/test_vector/test_vector_isempty.cpp.s
+.PHONY : tests/test_vector/test_vector_isempty.s
+
+# target to generate assembly for a file
+tests/test_vector/test_vector_isempty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_isempty.cpp.s
+.PHONY : tests/test_vector/test_vector_isempty.cpp.s
+
+tests/test_vector/test_vector_operator_index.o: tests/test_vector/test_vector_operator_index.cpp.o
+.PHONY : tests/test_vector/test_vector_operator_index.o
+
+# target to build an object file
+tests/test_vector/test_vector_operator_index.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_operator_index.cpp.o
+.PHONY : tests/test_vector/test_vector_operator_index.cpp.o
+
+tests/test_vector/test_vector_operator_index.i: tests/test_vector/test_vector_operator_index.cpp.i
+.PHONY : tests/test_vector/test_vector_operator_index.i
+
+# target to preprocess a source file
+tests/test_vector/test_vector_operator_index.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_operator_index.cpp.i
+.PHONY : tests/test_vector/test_vector_operator_index.cpp.i
+
+tests/test_vector/test_vector_operator_index.s: tests/test_vector/test_vector_operator_index.cpp.s
+.PHONY : tests/test_vector/test_vector_operator_index.s
+
+# target to generate assembly for a file
+tests/test_vector/test_vector_operator_index.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_operator_index.cpp.s
+.PHONY : tests/test_vector/test_vector_operator_index.cpp.s
+
+tests/test_vector/test_vector_pop_back.o: tests/test_vector/test_vector_pop_back.cpp.o
+.PHONY : tests/test_vector/test_vector_pop_back.o
+
+# target to build an object file
+tests/test_vector/test_vector_pop_back.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_pop_back.cpp.o
+.PHONY : tests/test_vector/test_vector_pop_back.cpp.o
+
+tests/test_vector/test_vector_pop_back.i: tests/test_vector/test_vector_pop_back.cpp.i
+.PHONY : tests/test_vector/test_vector_pop_back.i
+
+# target to preprocess a source file
+tests/test_vector/test_vector_pop_back.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_pop_back.cpp.i
+.PHONY : tests/test_vector/test_vector_pop_back.cpp.i
+
+tests/test_vector/test_vector_pop_back.s: tests/test_vector/test_vector_pop_back.cpp.s
+.PHONY : tests/test_vector/test_vector_pop_back.s
+
+# target to generate assembly for a file
+tests/test_vector/test_vector_pop_back.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_pop_back.cpp.s
+.PHONY : tests/test_vector/test_vector_pop_back.cpp.s
+
+tests/test_vector/test_vector_push_back.o: tests/test_vector/test_vector_push_back.cpp.o
+.PHONY : tests/test_vector/test_vector_push_back.o
+
+# target to build an object file
+tests/test_vector/test_vector_push_back.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_push_back.cpp.o
+.PHONY : tests/test_vector/test_vector_push_back.cpp.o
+
+tests/test_vector/test_vector_push_back.i: tests/test_vector/test_vector_push_back.cpp.i
+.PHONY : tests/test_vector/test_vector_push_back.i
+
+# target to preprocess a source file
+tests/test_vector/test_vector_push_back.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_push_back.cpp.i
+.PHONY : tests/test_vector/test_vector_push_back.cpp.i
+
+tests/test_vector/test_vector_push_back.s: tests/test_vector/test_vector_push_back.cpp.s
+.PHONY : tests/test_vector/test_vector_push_back.s
+
+# target to generate assembly for a file
+tests/test_vector/test_vector_push_back.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_push_back.cpp.s
+.PHONY : tests/test_vector/test_vector_push_back.cpp.s
+
+tests/test_vector/test_vector_size.o: tests/test_vector/test_vector_size.cpp.o
+.PHONY : tests/test_vector/test_vector_size.o
+
+# target to build an object file
+tests/test_vector/test_vector_size.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_size.cpp.o
+.PHONY : tests/test_vector/test_vector_size.cpp.o
+
+tests/test_vector/test_vector_size.i: tests/test_vector/test_vector_size.cpp.i
+.PHONY : tests/test_vector/test_vector_size.i
+
+# target to preprocess a source file
+tests/test_vector/test_vector_size.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_size.cpp.i
+.PHONY : tests/test_vector/test_vector_size.cpp.i
+
+tests/test_vector/test_vector_size.s: tests/test_vector/test_vector_size.cpp.s
+.PHONY : tests/test_vector/test_vector_size.s
+
+# target to generate assembly for a file
+tests/test_vector/test_vector_size.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_size.cpp.s
+.PHONY : tests/test_vector/test_vector_size.cpp.s
+
+tests/test_vector/test_vector_userdefined.o: tests/test_vector/test_vector_userdefined.cpp.o
+.PHONY : tests/test_vector/test_vector_userdefined.o
+
+# target to build an object file
+tests/test_vector/test_vector_userdefined.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_userdefined.cpp.o
+.PHONY : tests/test_vector/test_vector_userdefined.cpp.o
+
+tests/test_vector/test_vector_userdefined.i: tests/test_vector/test_vector_userdefined.cpp.i
+.PHONY : tests/test_vector/test_vector_userdefined.i
+
+# target to preprocess a source file
+tests/test_vector/test_vector_userdefined.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_userdefined.cpp.i
+.PHONY : tests/test_vector/test_vector_userdefined.cpp.i
+
+tests/test_vector/test_vector_userdefined.s: tests/test_vector/test_vector_userdefined.cpp.s
+.PHONY : tests/test_vector/test_vector_userdefined.s
+
+# target to generate assembly for a file
+tests/test_vector/test_vector_userdefined.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_vector/test_vector_userdefined.cpp.s
+.PHONY : tests/test_vector/test_vector_userdefined.cpp.s
 
 # Help Target
 help:
@@ -160,11 +808,87 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... main"
+	@echo "... test"
+	@echo "... DSLibrary"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest"
+	@echo "... gtest_main"
+	@echo "... runTests"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tests/test_linkedlist/test_linkedlist_assignment.o"
+	@echo "... tests/test_linkedlist/test_linkedlist_assignment.i"
+	@echo "... tests/test_linkedlist/test_linkedlist_assignment.s"
+	@echo "... tests/test_linkedlist/test_linkedlist_constructor.o"
+	@echo "... tests/test_linkedlist/test_linkedlist_constructor.i"
+	@echo "... tests/test_linkedlist/test_linkedlist_constructor.s"
+	@echo "... tests/test_linkedlist/test_linkedlist_copy_constructor.o"
+	@echo "... tests/test_linkedlist/test_linkedlist_copy_constructor.i"
+	@echo "... tests/test_linkedlist/test_linkedlist_copy_constructor.s"
+	@echo "... tests/test_linkedlist/test_linkedlist_delete_any.o"
+	@echo "... tests/test_linkedlist/test_linkedlist_delete_any.i"
+	@echo "... tests/test_linkedlist/test_linkedlist_delete_any.s"
+	@echo "... tests/test_linkedlist/test_linkedlist_isempty.o"
+	@echo "... tests/test_linkedlist/test_linkedlist_isempty.i"
+	@echo "... tests/test_linkedlist/test_linkedlist_isempty.s"
+	@echo "... tests/test_linkedlist/test_linkedlist_operator_index.o"
+	@echo "... tests/test_linkedlist/test_linkedlist_operator_index.i"
+	@echo "... tests/test_linkedlist/test_linkedlist_operator_index.s"
+	@echo "... tests/test_linkedlist/test_linkedlist_pop.o"
+	@echo "... tests/test_linkedlist/test_linkedlist_pop.i"
+	@echo "... tests/test_linkedlist/test_linkedlist_pop.s"
+	@echo "... tests/test_linkedlist/test_linkedlist_push.o"
+	@echo "... tests/test_linkedlist/test_linkedlist_push.i"
+	@echo "... tests/test_linkedlist/test_linkedlist_push.s"
+	@echo "... tests/test_linkedlist/test_linkedlist_size.o"
+	@echo "... tests/test_linkedlist/test_linkedlist_size.i"
+	@echo "... tests/test_linkedlist/test_linkedlist_size.s"
+	@echo "... tests/test_linkedlist/test_linkedlist_userdefined.o"
+	@echo "... tests/test_linkedlist/test_linkedlist_userdefined.i"
+	@echo "... tests/test_linkedlist/test_linkedlist_userdefined.s"
+	@echo "... tests/test_main.o"
+	@echo "... tests/test_main.i"
+	@echo "... tests/test_main.s"
+	@echo "... tests/test_vector.o"
+	@echo "... tests/test_vector.i"
+	@echo "... tests/test_vector.s"
+	@echo "... tests/test_vector/test_vector_assignment.o"
+	@echo "... tests/test_vector/test_vector_assignment.i"
+	@echo "... tests/test_vector/test_vector_assignment.s"
+	@echo "... tests/test_vector/test_vector_capacity.o"
+	@echo "... tests/test_vector/test_vector_capacity.i"
+	@echo "... tests/test_vector/test_vector_capacity.s"
+	@echo "... tests/test_vector/test_vector_constructor.o"
+	@echo "... tests/test_vector/test_vector_constructor.i"
+	@echo "... tests/test_vector/test_vector_constructor.s"
+	@echo "... tests/test_vector/test_vector_copy_constructor.o"
+	@echo "... tests/test_vector/test_vector_copy_constructor.i"
+	@echo "... tests/test_vector/test_vector_copy_constructor.s"
+	@echo "... tests/test_vector/test_vector_isempty.o"
+	@echo "... tests/test_vector/test_vector_isempty.i"
+	@echo "... tests/test_vector/test_vector_isempty.s"
+	@echo "... tests/test_vector/test_vector_operator_index.o"
+	@echo "... tests/test_vector/test_vector_operator_index.i"
+	@echo "... tests/test_vector/test_vector_operator_index.s"
+	@echo "... tests/test_vector/test_vector_pop_back.o"
+	@echo "... tests/test_vector/test_vector_pop_back.i"
+	@echo "... tests/test_vector/test_vector_pop_back.s"
+	@echo "... tests/test_vector/test_vector_push_back.o"
+	@echo "... tests/test_vector/test_vector_push_back.i"
+	@echo "... tests/test_vector/test_vector_push_back.s"
+	@echo "... tests/test_vector/test_vector_size.o"
+	@echo "... tests/test_vector/test_vector_size.i"
+	@echo "... tests/test_vector/test_vector_size.s"
+	@echo "... tests/test_vector/test_vector_userdefined.o"
+	@echo "... tests/test_vector/test_vector_userdefined.i"
+	@echo "... tests/test_vector/test_vector_userdefined.s"
 .PHONY : help
 
 
