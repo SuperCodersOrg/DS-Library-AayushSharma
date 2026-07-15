@@ -3,7 +3,7 @@
 
 #include <type_traits>
 
-//================ Hashcode =================//
+
 
 inline Hashcode::Hashcode()
 {
@@ -11,7 +11,7 @@ inline Hashcode::Hashcode()
 
 inline int Hashcode::hash(const int s, int size)
 {
-    return s % size;
+   return (s % size + size) % size;
 }
 
 inline int Hashcode::hash(const string s, int size)
@@ -43,7 +43,6 @@ int Hashcode::hash(const T& obj, int size)
     }
 }
 
-//================ HashNode =================//
 
 template<typename K, typename V>
 HashNode<K,V>::HashNode(const K& key, const V& value)

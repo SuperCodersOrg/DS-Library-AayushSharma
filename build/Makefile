@@ -273,6 +273,390 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSLibrary.dir/build.make CMakeFiles/DSLibrary.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tests/redis_lite/test_del.o: tests/redis_lite/test_del.cpp.o
+.PHONY : tests/redis_lite/test_del.o
+
+# target to build an object file
+tests/redis_lite/test_del.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.o
+.PHONY : tests/redis_lite/test_del.cpp.o
+
+tests/redis_lite/test_del.i: tests/redis_lite/test_del.cpp.i
+.PHONY : tests/redis_lite/test_del.i
+
+# target to preprocess a source file
+tests/redis_lite/test_del.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.i
+.PHONY : tests/redis_lite/test_del.cpp.i
+
+tests/redis_lite/test_del.s: tests/redis_lite/test_del.cpp.s
+.PHONY : tests/redis_lite/test_del.s
+
+# target to generate assembly for a file
+tests/redis_lite/test_del.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.s
+.PHONY : tests/redis_lite/test_del.cpp.s
+
+tests/redis_lite/test_exists.o: tests/redis_lite/test_exists.cpp.o
+.PHONY : tests/redis_lite/test_exists.o
+
+# target to build an object file
+tests/redis_lite/test_exists.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.o
+.PHONY : tests/redis_lite/test_exists.cpp.o
+
+tests/redis_lite/test_exists.i: tests/redis_lite/test_exists.cpp.i
+.PHONY : tests/redis_lite/test_exists.i
+
+# target to preprocess a source file
+tests/redis_lite/test_exists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.i
+.PHONY : tests/redis_lite/test_exists.cpp.i
+
+tests/redis_lite/test_exists.s: tests/redis_lite/test_exists.cpp.s
+.PHONY : tests/redis_lite/test_exists.s
+
+# target to generate assembly for a file
+tests/redis_lite/test_exists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.s
+.PHONY : tests/redis_lite/test_exists.cpp.s
+
+tests/redis_lite/test_keys1.o: tests/redis_lite/test_keys1.cpp.o
+.PHONY : tests/redis_lite/test_keys1.o
+
+# target to build an object file
+tests/redis_lite/test_keys1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.o
+.PHONY : tests/redis_lite/test_keys1.cpp.o
+
+tests/redis_lite/test_keys1.i: tests/redis_lite/test_keys1.cpp.i
+.PHONY : tests/redis_lite/test_keys1.i
+
+# target to preprocess a source file
+tests/redis_lite/test_keys1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.i
+.PHONY : tests/redis_lite/test_keys1.cpp.i
+
+tests/redis_lite/test_keys1.s: tests/redis_lite/test_keys1.cpp.s
+.PHONY : tests/redis_lite/test_keys1.s
+
+# target to generate assembly for a file
+tests/redis_lite/test_keys1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.s
+.PHONY : tests/redis_lite/test_keys1.cpp.s
+
+tests/redis_lite/test_set_get.o: tests/redis_lite/test_set_get.cpp.o
+.PHONY : tests/redis_lite/test_set_get.o
+
+# target to build an object file
+tests/redis_lite/test_set_get.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.o
+.PHONY : tests/redis_lite/test_set_get.cpp.o
+
+tests/redis_lite/test_set_get.i: tests/redis_lite/test_set_get.cpp.i
+.PHONY : tests/redis_lite/test_set_get.i
+
+# target to preprocess a source file
+tests/redis_lite/test_set_get.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.i
+.PHONY : tests/redis_lite/test_set_get.cpp.i
+
+tests/redis_lite/test_set_get.s: tests/redis_lite/test_set_get.cpp.s
+.PHONY : tests/redis_lite/test_set_get.s
+
+# target to generate assembly for a file
+tests/redis_lite/test_set_get.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.s
+.PHONY : tests/redis_lite/test_set_get.cpp.s
+
+tests/redis_lite/test_size.o: tests/redis_lite/test_size.cpp.o
+.PHONY : tests/redis_lite/test_size.o
+
+# target to build an object file
+tests/redis_lite/test_size.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.o
+.PHONY : tests/redis_lite/test_size.cpp.o
+
+tests/redis_lite/test_size.i: tests/redis_lite/test_size.cpp.i
+.PHONY : tests/redis_lite/test_size.i
+
+# target to preprocess a source file
+tests/redis_lite/test_size.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.i
+.PHONY : tests/redis_lite/test_size.cpp.i
+
+tests/redis_lite/test_size.s: tests/redis_lite/test_size.cpp.s
+.PHONY : tests/redis_lite/test_size.s
+
+# target to generate assembly for a file
+tests/redis_lite/test_size.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.s
+.PHONY : tests/redis_lite/test_size.cpp.s
+
+tests/test_hashmap/test_assignment.o: tests/test_hashmap/test_assignment.cpp.o
+.PHONY : tests/test_hashmap/test_assignment.o
+
+# target to build an object file
+tests/test_hashmap/test_assignment.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.o
+.PHONY : tests/test_hashmap/test_assignment.cpp.o
+
+tests/test_hashmap/test_assignment.i: tests/test_hashmap/test_assignment.cpp.i
+.PHONY : tests/test_hashmap/test_assignment.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_assignment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.i
+.PHONY : tests/test_hashmap/test_assignment.cpp.i
+
+tests/test_hashmap/test_assignment.s: tests/test_hashmap/test_assignment.cpp.s
+.PHONY : tests/test_hashmap/test_assignment.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_assignment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.s
+.PHONY : tests/test_hashmap/test_assignment.cpp.s
+
+tests/test_hashmap/test_constructor.o: tests/test_hashmap/test_constructor.cpp.o
+.PHONY : tests/test_hashmap/test_constructor.o
+
+# target to build an object file
+tests/test_hashmap/test_constructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.o
+.PHONY : tests/test_hashmap/test_constructor.cpp.o
+
+tests/test_hashmap/test_constructor.i: tests/test_hashmap/test_constructor.cpp.i
+.PHONY : tests/test_hashmap/test_constructor.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_constructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.i
+.PHONY : tests/test_hashmap/test_constructor.cpp.i
+
+tests/test_hashmap/test_constructor.s: tests/test_hashmap/test_constructor.cpp.s
+.PHONY : tests/test_hashmap/test_constructor.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_constructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.s
+.PHONY : tests/test_hashmap/test_constructor.cpp.s
+
+tests/test_hashmap/test_copy_constructor.o: tests/test_hashmap/test_copy_constructor.cpp.o
+.PHONY : tests/test_hashmap/test_copy_constructor.o
+
+# target to build an object file
+tests/test_hashmap/test_copy_constructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.o
+.PHONY : tests/test_hashmap/test_copy_constructor.cpp.o
+
+tests/test_hashmap/test_copy_constructor.i: tests/test_hashmap/test_copy_constructor.cpp.i
+.PHONY : tests/test_hashmap/test_copy_constructor.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_copy_constructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.i
+.PHONY : tests/test_hashmap/test_copy_constructor.cpp.i
+
+tests/test_hashmap/test_copy_constructor.s: tests/test_hashmap/test_copy_constructor.cpp.s
+.PHONY : tests/test_hashmap/test_copy_constructor.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_copy_constructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.s
+.PHONY : tests/test_hashmap/test_copy_constructor.cpp.s
+
+tests/test_hashmap/test_find.o: tests/test_hashmap/test_find.cpp.o
+.PHONY : tests/test_hashmap/test_find.o
+
+# target to build an object file
+tests/test_hashmap/test_find.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.o
+.PHONY : tests/test_hashmap/test_find.cpp.o
+
+tests/test_hashmap/test_find.i: tests/test_hashmap/test_find.cpp.i
+.PHONY : tests/test_hashmap/test_find.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_find.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.i
+.PHONY : tests/test_hashmap/test_find.cpp.i
+
+tests/test_hashmap/test_find.s: tests/test_hashmap/test_find.cpp.s
+.PHONY : tests/test_hashmap/test_find.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_find.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.s
+.PHONY : tests/test_hashmap/test_find.cpp.s
+
+tests/test_hashmap/test_hash.o: tests/test_hashmap/test_hash.cpp.o
+.PHONY : tests/test_hashmap/test_hash.o
+
+# target to build an object file
+tests/test_hashmap/test_hash.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.o
+.PHONY : tests/test_hashmap/test_hash.cpp.o
+
+tests/test_hashmap/test_hash.i: tests/test_hashmap/test_hash.cpp.i
+.PHONY : tests/test_hashmap/test_hash.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_hash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.i
+.PHONY : tests/test_hashmap/test_hash.cpp.i
+
+tests/test_hashmap/test_hash.s: tests/test_hashmap/test_hash.cpp.s
+.PHONY : tests/test_hashmap/test_hash.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_hash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.s
+.PHONY : tests/test_hashmap/test_hash.cpp.s
+
+tests/test_hashmap/test_keys.o: tests/test_hashmap/test_keys.cpp.o
+.PHONY : tests/test_hashmap/test_keys.o
+
+# target to build an object file
+tests/test_hashmap/test_keys.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.o
+.PHONY : tests/test_hashmap/test_keys.cpp.o
+
+tests/test_hashmap/test_keys.i: tests/test_hashmap/test_keys.cpp.i
+.PHONY : tests/test_hashmap/test_keys.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_keys.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.i
+.PHONY : tests/test_hashmap/test_keys.cpp.i
+
+tests/test_hashmap/test_keys.s: tests/test_hashmap/test_keys.cpp.s
+.PHONY : tests/test_hashmap/test_keys.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_keys.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.s
+.PHONY : tests/test_hashmap/test_keys.cpp.s
+
+tests/test_hashmap/test_operator_brackets.o: tests/test_hashmap/test_operator_brackets.cpp.o
+.PHONY : tests/test_hashmap/test_operator_brackets.o
+
+# target to build an object file
+tests/test_hashmap/test_operator_brackets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.o
+.PHONY : tests/test_hashmap/test_operator_brackets.cpp.o
+
+tests/test_hashmap/test_operator_brackets.i: tests/test_hashmap/test_operator_brackets.cpp.i
+.PHONY : tests/test_hashmap/test_operator_brackets.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_operator_brackets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.i
+.PHONY : tests/test_hashmap/test_operator_brackets.cpp.i
+
+tests/test_hashmap/test_operator_brackets.s: tests/test_hashmap/test_operator_brackets.cpp.s
+.PHONY : tests/test_hashmap/test_operator_brackets.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_operator_brackets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.s
+.PHONY : tests/test_hashmap/test_operator_brackets.cpp.s
+
+tests/test_hashmap/test_pop.o: tests/test_hashmap/test_pop.cpp.o
+.PHONY : tests/test_hashmap/test_pop.o
+
+# target to build an object file
+tests/test_hashmap/test_pop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.o
+.PHONY : tests/test_hashmap/test_pop.cpp.o
+
+tests/test_hashmap/test_pop.i: tests/test_hashmap/test_pop.cpp.i
+.PHONY : tests/test_hashmap/test_pop.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_pop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.i
+.PHONY : tests/test_hashmap/test_pop.cpp.i
+
+tests/test_hashmap/test_pop.s: tests/test_hashmap/test_pop.cpp.s
+.PHONY : tests/test_hashmap/test_pop.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_pop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.s
+.PHONY : tests/test_hashmap/test_pop.cpp.s
+
+tests/test_hashmap/test_push.o: tests/test_hashmap/test_push.cpp.o
+.PHONY : tests/test_hashmap/test_push.o
+
+# target to build an object file
+tests/test_hashmap/test_push.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.o
+.PHONY : tests/test_hashmap/test_push.cpp.o
+
+tests/test_hashmap/test_push.i: tests/test_hashmap/test_push.cpp.i
+.PHONY : tests/test_hashmap/test_push.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_push.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.i
+.PHONY : tests/test_hashmap/test_push.cpp.i
+
+tests/test_hashmap/test_push.s: tests/test_hashmap/test_push.cpp.s
+.PHONY : tests/test_hashmap/test_push.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_push.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.s
+.PHONY : tests/test_hashmap/test_push.cpp.s
+
+tests/test_hashmap/test_rehash.o: tests/test_hashmap/test_rehash.cpp.o
+.PHONY : tests/test_hashmap/test_rehash.o
+
+# target to build an object file
+tests/test_hashmap/test_rehash.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.o
+.PHONY : tests/test_hashmap/test_rehash.cpp.o
+
+tests/test_hashmap/test_rehash.i: tests/test_hashmap/test_rehash.cpp.i
+.PHONY : tests/test_hashmap/test_rehash.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_rehash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.i
+.PHONY : tests/test_hashmap/test_rehash.cpp.i
+
+tests/test_hashmap/test_rehash.s: tests/test_hashmap/test_rehash.cpp.s
+.PHONY : tests/test_hashmap/test_rehash.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_rehash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.s
+.PHONY : tests/test_hashmap/test_rehash.cpp.s
+
+tests/test_hashmap/test_userdefined.o: tests/test_hashmap/test_userdefined.cpp.o
+.PHONY : tests/test_hashmap/test_userdefined.o
+
+# target to build an object file
+tests/test_hashmap/test_userdefined.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.o
+.PHONY : tests/test_hashmap/test_userdefined.cpp.o
+
+tests/test_hashmap/test_userdefined.i: tests/test_hashmap/test_userdefined.cpp.i
+.PHONY : tests/test_hashmap/test_userdefined.i
+
+# target to preprocess a source file
+tests/test_hashmap/test_userdefined.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.i
+.PHONY : tests/test_hashmap/test_userdefined.cpp.i
+
+tests/test_hashmap/test_userdefined.s: tests/test_hashmap/test_userdefined.cpp.s
+.PHONY : tests/test_hashmap/test_userdefined.s
+
+# target to generate assembly for a file
+tests/test_hashmap/test_userdefined.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.s
+.PHONY : tests/test_hashmap/test_userdefined.cpp.s
+
 tests/test_linkedlist/test_linkedlist_assignment.o: tests/test_linkedlist/test_linkedlist_assignment.cpp.o
 .PHONY : tests/test_linkedlist/test_linkedlist_assignment.o
 
@@ -823,6 +1207,54 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tests/redis_lite/test_del.o"
+	@echo "... tests/redis_lite/test_del.i"
+	@echo "... tests/redis_lite/test_del.s"
+	@echo "... tests/redis_lite/test_exists.o"
+	@echo "... tests/redis_lite/test_exists.i"
+	@echo "... tests/redis_lite/test_exists.s"
+	@echo "... tests/redis_lite/test_keys1.o"
+	@echo "... tests/redis_lite/test_keys1.i"
+	@echo "... tests/redis_lite/test_keys1.s"
+	@echo "... tests/redis_lite/test_set_get.o"
+	@echo "... tests/redis_lite/test_set_get.i"
+	@echo "... tests/redis_lite/test_set_get.s"
+	@echo "... tests/redis_lite/test_size.o"
+	@echo "... tests/redis_lite/test_size.i"
+	@echo "... tests/redis_lite/test_size.s"
+	@echo "... tests/test_hashmap/test_assignment.o"
+	@echo "... tests/test_hashmap/test_assignment.i"
+	@echo "... tests/test_hashmap/test_assignment.s"
+	@echo "... tests/test_hashmap/test_constructor.o"
+	@echo "... tests/test_hashmap/test_constructor.i"
+	@echo "... tests/test_hashmap/test_constructor.s"
+	@echo "... tests/test_hashmap/test_copy_constructor.o"
+	@echo "... tests/test_hashmap/test_copy_constructor.i"
+	@echo "... tests/test_hashmap/test_copy_constructor.s"
+	@echo "... tests/test_hashmap/test_find.o"
+	@echo "... tests/test_hashmap/test_find.i"
+	@echo "... tests/test_hashmap/test_find.s"
+	@echo "... tests/test_hashmap/test_hash.o"
+	@echo "... tests/test_hashmap/test_hash.i"
+	@echo "... tests/test_hashmap/test_hash.s"
+	@echo "... tests/test_hashmap/test_keys.o"
+	@echo "... tests/test_hashmap/test_keys.i"
+	@echo "... tests/test_hashmap/test_keys.s"
+	@echo "... tests/test_hashmap/test_operator_brackets.o"
+	@echo "... tests/test_hashmap/test_operator_brackets.i"
+	@echo "... tests/test_hashmap/test_operator_brackets.s"
+	@echo "... tests/test_hashmap/test_pop.o"
+	@echo "... tests/test_hashmap/test_pop.i"
+	@echo "... tests/test_hashmap/test_pop.s"
+	@echo "... tests/test_hashmap/test_push.o"
+	@echo "... tests/test_hashmap/test_push.i"
+	@echo "... tests/test_hashmap/test_push.s"
+	@echo "... tests/test_hashmap/test_rehash.o"
+	@echo "... tests/test_hashmap/test_rehash.i"
+	@echo "... tests/test_hashmap/test_rehash.s"
+	@echo "... tests/test_hashmap/test_userdefined.o"
+	@echo "... tests/test_hashmap/test_userdefined.i"
+	@echo "... tests/test_hashmap/test_userdefined.s"
 	@echo "... tests/test_linkedlist/test_linkedlist_assignment.o"
 	@echo "... tests/test_linkedlist/test_linkedlist_assignment.i"
 	@echo "... tests/test_linkedlist/test_linkedlist_assignment.s"

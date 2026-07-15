@@ -380,6 +380,230 @@ CMakeFiles/runTests.dir/tests/test_vector/test_vector_userdefined.cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_vector/test_vector_userdefined.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_vector/test_vector_userdefined.cpp -o CMakeFiles/runTests.dir/tests/test_vector/test_vector_userdefined.cpp.s
 
+CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_hash.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_hash.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_hash.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_hash.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.s
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_constructor.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_constructor.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_constructor.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_constructor.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.s
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_copy_constructor.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_copy_constructor.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_copy_constructor.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_copy_constructor.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.s
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_assignment.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_assignment.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_assignment.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_assignment.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.s
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_push.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_push.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_push.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_push.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.s
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_find.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_find.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_find.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_find.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.s
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_pop.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_pop.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_pop.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_pop.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.s
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_operator_brackets.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_operator_brackets.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_operator_brackets.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_operator_brackets.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.s
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_keys.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_keys.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_keys.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_keys.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.s
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_rehash.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_rehash.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_rehash.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_rehash.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.s
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.o: /Users/aayushsharma/dslibrary/tests/test_hashmap/test_userdefined.cpp
+CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.o -MF CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.o.d -o CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.o -c /Users/aayushsharma/dslibrary/tests/test_hashmap/test_userdefined.cpp
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/test_hashmap/test_userdefined.cpp > CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.i
+
+CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/test_hashmap/test_userdefined.cpp -o CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.s
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.o: /Users/aayushsharma/dslibrary/tests/redis_lite/test_del.cpp
+CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.o -MF CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.o.d -o CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.o -c /Users/aayushsharma/dslibrary/tests/redis_lite/test_del.cpp
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/redis_lite/test_del.cpp > CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.i
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/redis_lite/test_del.cpp -o CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.s
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.o: /Users/aayushsharma/dslibrary/tests/redis_lite/test_keys1.cpp
+CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.o -MF CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.o.d -o CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.o -c /Users/aayushsharma/dslibrary/tests/redis_lite/test_keys1.cpp
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/redis_lite/test_keys1.cpp > CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.i
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/redis_lite/test_keys1.cpp -o CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.s
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.o: /Users/aayushsharma/dslibrary/tests/redis_lite/test_set_get.cpp
+CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.o -MF CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.o.d -o CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.o -c /Users/aayushsharma/dslibrary/tests/redis_lite/test_set_get.cpp
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/redis_lite/test_set_get.cpp > CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.i
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/redis_lite/test_set_get.cpp -o CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.s
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.o: /Users/aayushsharma/dslibrary/tests/redis_lite/test_exists.cpp
+CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.o -MF CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.o.d -o CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.o -c /Users/aayushsharma/dslibrary/tests/redis_lite/test_exists.cpp
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/redis_lite/test_exists.cpp > CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.i
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/redis_lite/test_exists.cpp -o CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.s
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.o: CMakeFiles/runTests.dir/flags.make
+CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.o: /Users/aayushsharma/dslibrary/tests/redis_lite/test_size.cpp
+CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.o: CMakeFiles/runTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.o -MF CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.o.d -o CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.o -c /Users/aayushsharma/dslibrary/tests/redis_lite/test_size.cpp
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aayushsharma/dslibrary/tests/redis_lite/test_size.cpp > CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.i
+
+CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aayushsharma/dslibrary/tests/redis_lite/test_size.cpp -o CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.s
+
 # Object files for target runTests
 runTests_OBJECTS = \
 "CMakeFiles/runTests.dir/tests/test_main.cpp.o" \
@@ -403,7 +627,23 @@ runTests_OBJECTS = \
 "CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_copy_constructor.cpp.o" \
 "CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_assignment.cpp.o" \
 "CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_userdefined.cpp.o" \
-"CMakeFiles/runTests.dir/tests/test_vector/test_vector_userdefined.cpp.o"
+"CMakeFiles/runTests.dir/tests/test_vector/test_vector_userdefined.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.o" \
+"CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.o" \
+"CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.o" \
+"CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.o" \
+"CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.o" \
+"CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.o" \
+"CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.o"
 
 # External object files for target runTests
 runTests_EXTERNAL_OBJECTS =
@@ -430,12 +670,28 @@ runTests: CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_copy_con
 runTests: CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_assignment.cpp.o
 runTests: CMakeFiles/runTests.dir/tests/test_linkedlist/test_linkedlist_userdefined.cpp.o
 runTests: CMakeFiles/runTests.dir/tests/test_vector/test_vector_userdefined.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_hash.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_constructor.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_copy_constructor.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_assignment.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_push.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_find.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_pop.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_operator_brackets.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_keys.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_rehash.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/test_hashmap/test_userdefined.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/redis_lite/test_del.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/redis_lite/test_keys1.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/redis_lite/test_set_get.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/redis_lite/test_exists.cpp.o
+runTests: CMakeFiles/runTests.dir/tests/redis_lite/test_size.cpp.o
 runTests: CMakeFiles/runTests.dir/build.make
 runTests: lib/libgtest.a
 runTests: lib/libgtest_main.a
 runTests: lib/libgtest.a
 runTests: CMakeFiles/runTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable runTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/aayushsharma/dslibrary/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable runTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runTests.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/cmake -D TEST_TARGET=runTests -D TEST_EXECUTABLE=/Users/aayushsharma/dslibrary/build/runTests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/aayushsharma/dslibrary/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=runTests_TESTS -D CTEST_FILE=/Users/aayushsharma/dslibrary/build/runTests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /opt/homebrew/share/cmake/Modules/GoogleTestAddTests.cmake
 

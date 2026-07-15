@@ -1,5 +1,5 @@
 {
-  "tests": 93,
+  "tests": 173,
   "name": "AllTests",
   "testsuites": [
     {
@@ -590,6 +590,502 @@
           "name": "AllOperations",
           "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_vector\/test_vector_userdefined.cpp",
           "line": 20
+        }
+      ]
+    },
+    {
+      "name": "HashFunctionTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "IntegerHash",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_hash.cpp",
+          "line": 4
+        },
+        {
+          "name": "CharacterHash",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_hash.cpp",
+          "line": 11
+        },
+        {
+          "name": "StringHash",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_hash.cpp",
+          "line": 18
+        },
+        {
+          "name": "EmptyString",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_hash.cpp",
+          "line": 25
+        },
+        {
+          "name": "LargeInteger",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_hash.cpp",
+          "line": 32
+        }
+      ]
+    },
+    {
+      "name": "ConstructorTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "EmptyMapFind",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_constructor.cpp",
+          "line": 4
+        },
+        {
+          "name": "PushAfterConstruction",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_constructor.cpp",
+          "line": 11
+        },
+        {
+          "name": "DifferentType",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_constructor.cpp",
+          "line": 20
+        },
+        {
+          "name": "CharKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_constructor.cpp",
+          "line": 29
+        },
+        {
+          "name": "FloatValue",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_constructor.cpp",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "name": "CopyConstructorTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "CopySingleElement",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_copy_constructor.cpp",
+          "line": 4
+        },
+        {
+          "name": "CopyMultipleElements",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_copy_constructor.cpp",
+          "line": 14
+        },
+        {
+          "name": "DeepCopy",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_copy_constructor.cpp",
+          "line": 27
+        },
+        {
+          "name": "CopyEmptyMap",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_copy_constructor.cpp",
+          "line": 40
+        },
+        {
+          "name": "CopyAfterRehash",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_copy_constructor.cpp",
+          "line": 48
+        }
+      ]
+    },
+    {
+      "name": "AssignmentTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "BasicAssignment",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_assignment.cpp",
+          "line": 4
+        },
+        {
+          "name": "MultipleElements",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_assignment.cpp",
+          "line": 15
+        },
+        {
+          "name": "SelfAssignment",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_assignment.cpp",
+          "line": 28
+        },
+        {
+          "name": "DeepCopy",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_assignment.cpp",
+          "line": 39
+        },
+        {
+          "name": "AssignEmptyMap",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_assignment.cpp",
+          "line": 53
+        }
+      ]
+    },
+    {
+      "name": "PushTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "InsertOneElement",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_push.cpp",
+          "line": 4
+        },
+        {
+          "name": "InsertMultipleElements",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_push.cpp",
+          "line": 13
+        },
+        {
+          "name": "UpdateExistingKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_push.cpp",
+          "line": 26
+        },
+        {
+          "name": "InsertNegativeKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_push.cpp",
+          "line": 36
+        },
+        {
+          "name": "RehashInsertion",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_push.cpp",
+          "line": 45
+        }
+      ]
+    },
+    {
+      "name": "FindTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "ExistingKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_find.cpp",
+          "line": 4
+        },
+        {
+          "name": "NonExistingKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_find.cpp",
+          "line": 12
+        },
+        {
+          "name": "CorrectValue",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_find.cpp",
+          "line": 19
+        },
+        {
+          "name": "MultipleInsertions",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_find.cpp",
+          "line": 28
+        },
+        {
+          "name": "FindAfterUpdate",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_find.cpp",
+          "line": 38
+        }
+      ]
+    },
+    {
+      "name": "PopTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "RemoveSingleElement",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_pop.cpp",
+          "line": 4
+        },
+        {
+          "name": "RemoveMiddle",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_pop.cpp",
+          "line": 14
+        },
+        {
+          "name": "RemoveLast",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_pop.cpp",
+          "line": 27
+        },
+        {
+          "name": "RemoveMissingKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_pop.cpp",
+          "line": 38
+        },
+        {
+          "name": "RemoveAfterRehash",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_pop.cpp",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "name": "BracketTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "InsertUsingBracket",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_operator_brackets.cpp",
+          "line": 4
+        },
+        {
+          "name": "UpdateUsingBracket",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_operator_brackets.cpp",
+          "line": 13
+        },
+        {
+          "name": "DefaultInitialization",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_operator_brackets.cpp",
+          "line": 23
+        },
+        {
+          "name": "MultipleKeys",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_operator_brackets.cpp",
+          "line": 30
+        },
+        {
+          "name": "StringValues",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_operator_brackets.cpp",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "name": "HashMapKeysTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "EmptyMap",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_keys.cpp",
+          "line": 4
+        },
+        {
+          "name": "SingleKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_keys.cpp",
+          "line": 15
+        },
+        {
+          "name": "MultipleKeys",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_keys.cpp",
+          "line": 28
+        },
+        {
+          "name": "AfterDeletion",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_keys.cpp",
+          "line": 45
+        },
+        {
+          "name": "AfterRehash",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_keys.cpp",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "name": "RehashTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "InsertMany",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_rehash.cpp",
+          "line": 4
+        },
+        {
+          "name": "ValuesRemainCorrect",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_rehash.cpp",
+          "line": 14
+        },
+        {
+          "name": "SearchAfterRehash",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_rehash.cpp",
+          "line": 24
+        },
+        {
+          "name": "UpdateAfterRehash",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_rehash.cpp",
+          "line": 34
+        },
+        {
+          "name": "RemoveAfterRehash",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_rehash.cpp",
+          "line": 46
+        }
+      ]
+    },
+    {
+      "name": "UserDefinedTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "InsertObject",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_userdefined.cpp",
+          "line": 24
+        },
+        {
+          "name": "MultipleObjects",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_userdefined.cpp",
+          "line": 35
+        },
+        {
+          "name": "UpdateExistingKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_userdefined.cpp",
+          "line": 50
+        },
+        {
+          "name": "OperatorBracket",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_userdefined.cpp",
+          "line": 62
+        },
+        {
+          "name": "RehashWithObjects",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/test_hashmap\/test_userdefined.cpp",
+          "line": 73
+        }
+      ]
+    },
+    {
+      "name": "DeleteTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "DeleteExistingKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_del.cpp",
+          "line": 4
+        },
+        {
+          "name": "DeleteMissingKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_del.cpp",
+          "line": 14
+        },
+        {
+          "name": "DeleteOneOfMany",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_del.cpp",
+          "line": 23
+        },
+        {
+          "name": "DeleteTwice",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_del.cpp",
+          "line": 35
+        },
+        {
+          "name": "SizeAfterDelete",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_del.cpp",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "name": "KeysTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "EmptyKeys",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_keys1.cpp",
+          "line": 4
+        },
+        {
+          "name": "OneKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_keys1.cpp",
+          "line": 17
+        },
+        {
+          "name": "MultipleKeys",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_keys1.cpp",
+          "line": 32
+        },
+        {
+          "name": "AfterDelete",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_keys1.cpp",
+          "line": 51
+        },
+        {
+          "name": "AfterManyInsertions",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_keys1.cpp",
+          "line": 67
+        }
+      ]
+    },
+    {
+      "name": "SetGetTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "InsertSingleKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_set_get.cpp",
+          "line": 4
+        },
+        {
+          "name": "UpdateExistingKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_set_get.cpp",
+          "line": 13
+        },
+        {
+          "name": "MultipleKeys",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_set_get.cpp",
+          "line": 23
+        },
+        {
+          "name": "EmptyValue",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_set_get.cpp",
+          "line": 34
+        },
+        {
+          "name": "LongString",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_set_get.cpp",
+          "line": 43
+        }
+      ]
+    },
+    {
+      "name": "ExistsTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "ExistingKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_exists.cpp",
+          "line": 4
+        },
+        {
+          "name": "MissingKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_exists.cpp",
+          "line": 13
+        },
+        {
+          "name": "AfterDelete",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_exists.cpp",
+          "line": 20
+        },
+        {
+          "name": "MultipleKeys",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_exists.cpp",
+          "line": 31
+        },
+        {
+          "name": "EmptyMap",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_exists.cpp",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "name": "SizeTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "InitiallyZero",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_size.cpp",
+          "line": 4
+        },
+        {
+          "name": "OneInsertion",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_size.cpp",
+          "line": 11
+        },
+        {
+          "name": "MultipleInsertions",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_size.cpp",
+          "line": 20
+        },
+        {
+          "name": "AfterDelete",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_size.cpp",
+          "line": 31
+        },
+        {
+          "name": "DuplicateKey",
+          "file": "\/Users\/aayushsharma\/dslibrary\/tests\/redis_lite\/test_size.cpp",
+          "line": 41
         }
       ]
     }

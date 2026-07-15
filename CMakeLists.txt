@@ -79,6 +79,23 @@ tests/test_linkedlist/test_linkedlist_copy_constructor.cpp
 tests/test_linkedlist/test_linkedlist_assignment.cpp
 tests/test_linkedlist/test_linkedlist_userdefined.cpp
 tests/test_vector/test_vector_userdefined.cpp
+tests/test_hashmap/test_hash.cpp
+tests/test_hashmap/test_constructor.cpp
+tests/test_hashmap/test_copy_constructor.cpp
+tests/test_hashmap/test_assignment.cpp
+tests/test_hashmap/test_push.cpp
+tests/test_hashmap/test_find.cpp
+tests/test_hashmap/test_pop.cpp
+tests/test_hashmap/test_operator_brackets.cpp
+tests/test_hashmap/test_keys.cpp
+tests/test_hashmap/test_rehash.cpp
+tests/test_hashmap/test_userdefined.cpp
+tests/redis_lite/test_del.cpp                    
+tests/redis_lite/test_keys1.cpp                   
+tests/redis_lite/test_set_get.cpp
+tests/redis_lite/test_exists.cpp                 
+# tests/redis_lite/test_process_command.cpp        
+tests/redis_lite/test_size.cpp
 )
 
 target_include_directories(
