@@ -1,10 +1,10 @@
-Start testing: Jul 16 00:07 IST
+Start testing: Jul 16 11:34 IST
 ----------------------------------------------------------
 1/173 Testing: VectorTest.PushBack
 1/173 Test: VectorTest.PushBack
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorTest.PushBack" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorTest.PushBack" start time: Jul 16 00:07 IST
+"VectorTest.PushBack" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorTest.PushBack
@@ -19,10 +19,10 @@ Note: Google Test filter = VectorTest.PushBack
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.62 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorTest.PushBack" end time: Jul 16 00:07 IST
+"VectorTest.PushBack" end time: Jul 16 11:34 IST
 "VectorTest.PushBack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/173 Test: VectorConstructor.DefaultConstructor
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorConstructor.DefaultConstructor" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorConstructor.DefaultConstructor" start time: Jul 16 00:07 IST
+"VectorConstructor.DefaultConstructor" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorConstructor.DefaultConstructor
@@ -48,7 +48,7 @@ Note: Google Test filter = VectorConstructor.DefaultConstructor
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorConstructor.DefaultConstructor" end time: Jul 16 00:07 IST
+"VectorConstructor.DefaultConstructor" end time: Jul 16 11:34 IST
 "VectorConstructor.DefaultConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -56,7 +56,7 @@ Test Passed.
 3/173 Test: VectorConstructor.DefaultCapacityPositive
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorConstructor.DefaultCapacityPositive" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorConstructor.DefaultCapacityPositive" start time: Jul 16 00:07 IST
+"VectorConstructor.DefaultCapacityPositive" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorConstructor.DefaultCapacityPositive
@@ -74,7 +74,7 @@ Note: Google Test filter = VectorConstructor.DefaultCapacityPositive
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorConstructor.DefaultCapacityPositive" end time: Jul 16 00:07 IST
+"VectorConstructor.DefaultCapacityPositive" end time: Jul 16 11:34 IST
 "VectorConstructor.DefaultCapacityPositive" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -82,7 +82,7 @@ Test Passed.
 4/173 Test: VectorConstructor.ParameterizedConstructor
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorConstructor.ParameterizedConstructor" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorConstructor.ParameterizedConstructor" start time: Jul 16 00:07 IST
+"VectorConstructor.ParameterizedConstructor" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorConstructor.ParameterizedConstructor
@@ -97,10 +97,10 @@ Note: Google Test filter = VectorConstructor.ParameterizedConstructor
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorConstructor.ParameterizedConstructor" end time: Jul 16 00:07 IST
+"VectorConstructor.ParameterizedConstructor" end time: Jul 16 11:34 IST
 "VectorConstructor.ParameterizedConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -108,7 +108,7 @@ Test Passed.
 5/173 Test: VectorConstructor.ParameterizedConstructorSizeZero
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorConstructor.ParameterizedConstructorSizeZero" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorConstructor.ParameterizedConstructorSizeZero" start time: Jul 16 00:07 IST
+"VectorConstructor.ParameterizedConstructorSizeZero" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorConstructor.ParameterizedConstructorSizeZero
@@ -126,7 +126,7 @@ Note: Google Test filter = VectorConstructor.ParameterizedConstructorSizeZero
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorConstructor.ParameterizedConstructorSizeZero" end time: Jul 16 00:07 IST
+"VectorConstructor.ParameterizedConstructorSizeZero" end time: Jul 16 11:34 IST
 "VectorConstructor.ParameterizedConstructorSizeZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -134,7 +134,7 @@ Test Passed.
 6/173 Test: VectorConstructor.ConstructStringVector
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorConstructor.ConstructStringVector" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorConstructor.ConstructStringVector" start time: Jul 16 00:07 IST
+"VectorConstructor.ConstructStringVector" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorConstructor.ConstructStringVector
@@ -149,10 +149,10 @@ Note: Google Test filter = VectorConstructor.ConstructStringVector
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorConstructor.ConstructStringVector" end time: Jul 16 00:07 IST
+"VectorConstructor.ConstructStringVector" end time: Jul 16 11:34 IST
 "VectorConstructor.ConstructStringVector" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -160,7 +160,7 @@ Test Passed.
 7/173 Test: VectorPushBack.PushOneElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorPushBack.PushOneElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorPushBack.PushOneElement" start time: Jul 16 00:07 IST
+"VectorPushBack.PushOneElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorPushBack.PushOneElement
@@ -178,7 +178,7 @@ Note: Google Test filter = VectorPushBack.PushOneElement
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorPushBack.PushOneElement" end time: Jul 16 00:07 IST
+"VectorPushBack.PushOneElement" end time: Jul 16 11:34 IST
 "VectorPushBack.PushOneElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -186,7 +186,7 @@ Test Passed.
 8/173 Test: VectorPushBack.PushMultipleElements
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorPushBack.PushMultipleElements" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorPushBack.PushMultipleElements" start time: Jul 16 00:07 IST
+"VectorPushBack.PushMultipleElements" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorPushBack.PushMultipleElements
@@ -201,10 +201,10 @@ Note: Google Test filter = VectorPushBack.PushMultipleElements
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorPushBack.PushMultipleElements" end time: Jul 16 00:07 IST
+"VectorPushBack.PushMultipleElements" end time: Jul 16 11:34 IST
 "VectorPushBack.PushMultipleElements" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -212,7 +212,7 @@ Test Passed.
 9/173 Test: VectorPushBack.OrderMaintained
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorPushBack.OrderMaintained" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorPushBack.OrderMaintained" start time: Jul 16 00:07 IST
+"VectorPushBack.OrderMaintained" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorPushBack.OrderMaintained
@@ -230,7 +230,7 @@ Note: Google Test filter = VectorPushBack.OrderMaintained
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorPushBack.OrderMaintained" end time: Jul 16 00:07 IST
+"VectorPushBack.OrderMaintained" end time: Jul 16 11:34 IST
 "VectorPushBack.OrderMaintained" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -238,7 +238,7 @@ Test Passed.
 10/173 Test: VectorPushBack.ResizeAutomatically
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorPushBack.ResizeAutomatically" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorPushBack.ResizeAutomatically" start time: Jul 16 00:07 IST
+"VectorPushBack.ResizeAutomatically" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorPushBack.ResizeAutomatically
@@ -256,7 +256,7 @@ Note: Google Test filter = VectorPushBack.ResizeAutomatically
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorPushBack.ResizeAutomatically" end time: Jul 16 00:07 IST
+"VectorPushBack.ResizeAutomatically" end time: Jul 16 11:34 IST
 "VectorPushBack.ResizeAutomatically" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -264,7 +264,7 @@ Test Passed.
 11/173 Test: VectorPushBack.PushStrings
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorPushBack.PushStrings" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorPushBack.PushStrings" start time: Jul 16 00:07 IST
+"VectorPushBack.PushStrings" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorPushBack.PushStrings
@@ -282,7 +282,7 @@ Note: Google Test filter = VectorPushBack.PushStrings
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorPushBack.PushStrings" end time: Jul 16 00:07 IST
+"VectorPushBack.PushStrings" end time: Jul 16 11:34 IST
 "VectorPushBack.PushStrings" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -290,7 +290,7 @@ Test Passed.
 12/173 Test: VectorPopBack.PopOneElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorPopBack.PopOneElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorPopBack.PopOneElement" start time: Jul 16 00:07 IST
+"VectorPopBack.PopOneElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorPopBack.PopOneElement
@@ -308,7 +308,7 @@ Note: Google Test filter = VectorPopBack.PopOneElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorPopBack.PopOneElement" end time: Jul 16 00:07 IST
+"VectorPopBack.PopOneElement" end time: Jul 16 11:34 IST
 "VectorPopBack.PopOneElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -316,7 +316,7 @@ Test Passed.
 13/173 Test: VectorPopBack.PopReducesSize
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorPopBack.PopReducesSize" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorPopBack.PopReducesSize" start time: Jul 16 00:07 IST
+"VectorPopBack.PopReducesSize" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorPopBack.PopReducesSize
@@ -334,7 +334,7 @@ Note: Google Test filter = VectorPopBack.PopReducesSize
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorPopBack.PopReducesSize" end time: Jul 16 00:07 IST
+"VectorPopBack.PopReducesSize" end time: Jul 16 11:34 IST
 "VectorPopBack.PopReducesSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -342,7 +342,7 @@ Test Passed.
 14/173 Test: VectorPopBack.PopKeepsFirstElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorPopBack.PopKeepsFirstElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorPopBack.PopKeepsFirstElement" start time: Jul 16 00:07 IST
+"VectorPopBack.PopKeepsFirstElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorPopBack.PopKeepsFirstElement
@@ -360,7 +360,7 @@ Note: Google Test filter = VectorPopBack.PopKeepsFirstElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorPopBack.PopKeepsFirstElement" end time: Jul 16 00:07 IST
+"VectorPopBack.PopKeepsFirstElement" end time: Jul 16 11:34 IST
 "VectorPopBack.PopKeepsFirstElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -368,7 +368,7 @@ Test Passed.
 15/173 Test: VectorPopBack.PopUntilEmpty
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorPopBack.PopUntilEmpty" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorPopBack.PopUntilEmpty" start time: Jul 16 00:07 IST
+"VectorPopBack.PopUntilEmpty" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorPopBack.PopUntilEmpty
@@ -383,10 +383,10 @@ Note: Google Test filter = VectorPopBack.PopUntilEmpty
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorPopBack.PopUntilEmpty" end time: Jul 16 00:07 IST
+"VectorPopBack.PopUntilEmpty" end time: Jul 16 11:34 IST
 "VectorPopBack.PopUntilEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -394,7 +394,7 @@ Test Passed.
 16/173 Test: VectorPopBack.PopAfterResize
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorPopBack.PopAfterResize" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorPopBack.PopAfterResize" start time: Jul 16 00:07 IST
+"VectorPopBack.PopAfterResize" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorPopBack.PopAfterResize
@@ -412,7 +412,7 @@ Note: Google Test filter = VectorPopBack.PopAfterResize
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorPopBack.PopAfterResize" end time: Jul 16 00:07 IST
+"VectorPopBack.PopAfterResize" end time: Jul 16 11:34 IST
 "VectorPopBack.PopAfterResize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -420,7 +420,7 @@ Test Passed.
 17/173 Test: VectorSize.DefaultSizeIsZero
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorSize.DefaultSizeIsZero" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorSize.DefaultSizeIsZero" start time: Jul 16 00:07 IST
+"VectorSize.DefaultSizeIsZero" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorSize.DefaultSizeIsZero
@@ -438,7 +438,7 @@ Note: Google Test filter = VectorSize.DefaultSizeIsZero
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorSize.DefaultSizeIsZero" end time: Jul 16 00:07 IST
+"VectorSize.DefaultSizeIsZero" end time: Jul 16 11:34 IST
 "VectorSize.DefaultSizeIsZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -446,7 +446,7 @@ Test Passed.
 18/173 Test: VectorSize.SizeAfterOnePush
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorSize.SizeAfterOnePush" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorSize.SizeAfterOnePush" start time: Jul 16 00:07 IST
+"VectorSize.SizeAfterOnePush" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorSize.SizeAfterOnePush
@@ -464,7 +464,7 @@ Note: Google Test filter = VectorSize.SizeAfterOnePush
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorSize.SizeAfterOnePush" end time: Jul 16 00:07 IST
+"VectorSize.SizeAfterOnePush" end time: Jul 16 11:34 IST
 "VectorSize.SizeAfterOnePush" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -472,7 +472,7 @@ Test Passed.
 19/173 Test: VectorSize.SizeAfterMultiplePush
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorSize.SizeAfterMultiplePush" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorSize.SizeAfterMultiplePush" start time: Jul 16 00:07 IST
+"VectorSize.SizeAfterMultiplePush" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorSize.SizeAfterMultiplePush
@@ -487,10 +487,10 @@ Note: Google Test filter = VectorSize.SizeAfterMultiplePush
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorSize.SizeAfterMultiplePush" end time: Jul 16 00:07 IST
+"VectorSize.SizeAfterMultiplePush" end time: Jul 16 11:34 IST
 "VectorSize.SizeAfterMultiplePush" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -498,7 +498,7 @@ Test Passed.
 20/173 Test: VectorSize.SizeAfterPop
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorSize.SizeAfterPop" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorSize.SizeAfterPop" start time: Jul 16 00:07 IST
+"VectorSize.SizeAfterPop" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorSize.SizeAfterPop
@@ -516,7 +516,7 @@ Note: Google Test filter = VectorSize.SizeAfterPop
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorSize.SizeAfterPop" end time: Jul 16 00:07 IST
+"VectorSize.SizeAfterPop" end time: Jul 16 11:34 IST
 "VectorSize.SizeAfterPop" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -524,7 +524,7 @@ Test Passed.
 21/173 Test: VectorSize.SizeAfterPushAndPop
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorSize.SizeAfterPushAndPop" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorSize.SizeAfterPushAndPop" start time: Jul 16 00:07 IST
+"VectorSize.SizeAfterPushAndPop" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorSize.SizeAfterPushAndPop
@@ -542,7 +542,7 @@ Note: Google Test filter = VectorSize.SizeAfterPushAndPop
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorSize.SizeAfterPushAndPop" end time: Jul 16 00:07 IST
+"VectorSize.SizeAfterPushAndPop" end time: Jul 16 11:34 IST
 "VectorSize.SizeAfterPushAndPop" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -550,7 +550,7 @@ Test Passed.
 22/173 Test: VectorCapacity.DefaultCapacityPositive
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorCapacity.DefaultCapacityPositive" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorCapacity.DefaultCapacityPositive" start time: Jul 16 00:07 IST
+"VectorCapacity.DefaultCapacityPositive" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorCapacity.DefaultCapacityPositive
@@ -565,10 +565,10 @@ Note: Google Test filter = VectorCapacity.DefaultCapacityPositive
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorCapacity.DefaultCapacityPositive" end time: Jul 16 00:07 IST
+"VectorCapacity.DefaultCapacityPositive" end time: Jul 16 11:34 IST
 "VectorCapacity.DefaultCapacityPositive" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -576,7 +576,7 @@ Test Passed.
 23/173 Test: VectorCapacity.ParameterizedCapacity
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorCapacity.ParameterizedCapacity" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorCapacity.ParameterizedCapacity" start time: Jul 16 00:07 IST
+"VectorCapacity.ParameterizedCapacity" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorCapacity.ParameterizedCapacity
@@ -594,7 +594,7 @@ Note: Google Test filter = VectorCapacity.ParameterizedCapacity
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorCapacity.ParameterizedCapacity" end time: Jul 16 00:07 IST
+"VectorCapacity.ParameterizedCapacity" end time: Jul 16 11:34 IST
 "VectorCapacity.ParameterizedCapacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -602,7 +602,7 @@ Test Passed.
 24/173 Test: VectorCapacity.CapacityAfterPush
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorCapacity.CapacityAfterPush" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorCapacity.CapacityAfterPush" start time: Jul 16 00:07 IST
+"VectorCapacity.CapacityAfterPush" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorCapacity.CapacityAfterPush
@@ -620,7 +620,7 @@ Note: Google Test filter = VectorCapacity.CapacityAfterPush
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorCapacity.CapacityAfterPush" end time: Jul 16 00:07 IST
+"VectorCapacity.CapacityAfterPush" end time: Jul 16 11:34 IST
 "VectorCapacity.CapacityAfterPush" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -628,7 +628,7 @@ Test Passed.
 25/173 Test: VectorCapacity.CapacityAfterResize
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorCapacity.CapacityAfterResize" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorCapacity.CapacityAfterResize" start time: Jul 16 00:07 IST
+"VectorCapacity.CapacityAfterResize" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorCapacity.CapacityAfterResize
@@ -646,7 +646,7 @@ Note: Google Test filter = VectorCapacity.CapacityAfterResize
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorCapacity.CapacityAfterResize" end time: Jul 16 00:07 IST
+"VectorCapacity.CapacityAfterResize" end time: Jul 16 11:34 IST
 "VectorCapacity.CapacityAfterResize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -654,7 +654,7 @@ Test Passed.
 26/173 Test: VectorCapacity.CapacityNeverLessThanSize
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorCapacity.CapacityNeverLessThanSize" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorCapacity.CapacityNeverLessThanSize" start time: Jul 16 00:07 IST
+"VectorCapacity.CapacityNeverLessThanSize" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorCapacity.CapacityNeverLessThanSize
@@ -672,7 +672,7 @@ Note: Google Test filter = VectorCapacity.CapacityNeverLessThanSize
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorCapacity.CapacityNeverLessThanSize" end time: Jul 16 00:07 IST
+"VectorCapacity.CapacityNeverLessThanSize" end time: Jul 16 11:34 IST
 "VectorCapacity.CapacityNeverLessThanSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -680,7 +680,7 @@ Test Passed.
 27/173 Test: VectorIsEmpty.EmptyVector
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorIsEmpty.EmptyVector" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorIsEmpty.EmptyVector" start time: Jul 16 00:07 IST
+"VectorIsEmpty.EmptyVector" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorIsEmpty.EmptyVector
@@ -698,7 +698,7 @@ Note: Google Test filter = VectorIsEmpty.EmptyVector
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorIsEmpty.EmptyVector" end time: Jul 16 00:07 IST
+"VectorIsEmpty.EmptyVector" end time: Jul 16 11:34 IST
 "VectorIsEmpty.EmptyVector" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -706,7 +706,7 @@ Test Passed.
 28/173 Test: VectorIsEmpty.AfterPush
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorIsEmpty.AfterPush" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorIsEmpty.AfterPush" start time: Jul 16 00:07 IST
+"VectorIsEmpty.AfterPush" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorIsEmpty.AfterPush
@@ -724,7 +724,7 @@ Note: Google Test filter = VectorIsEmpty.AfterPush
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorIsEmpty.AfterPush" end time: Jul 16 00:07 IST
+"VectorIsEmpty.AfterPush" end time: Jul 16 11:34 IST
 "VectorIsEmpty.AfterPush" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -732,7 +732,7 @@ Test Passed.
 29/173 Test: VectorIsEmpty.AfterPushPop
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorIsEmpty.AfterPushPop" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorIsEmpty.AfterPushPop" start time: Jul 16 00:07 IST
+"VectorIsEmpty.AfterPushPop" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorIsEmpty.AfterPushPop
@@ -750,7 +750,7 @@ Note: Google Test filter = VectorIsEmpty.AfterPushPop
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorIsEmpty.AfterPushPop" end time: Jul 16 00:07 IST
+"VectorIsEmpty.AfterPushPop" end time: Jul 16 11:34 IST
 "VectorIsEmpty.AfterPushPop" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -758,7 +758,7 @@ Test Passed.
 30/173 Test: VectorIsEmpty.MultipleElements
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorIsEmpty.MultipleElements" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorIsEmpty.MultipleElements" start time: Jul 16 00:07 IST
+"VectorIsEmpty.MultipleElements" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorIsEmpty.MultipleElements
@@ -776,7 +776,7 @@ Note: Google Test filter = VectorIsEmpty.MultipleElements
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorIsEmpty.MultipleElements" end time: Jul 16 00:07 IST
+"VectorIsEmpty.MultipleElements" end time: Jul 16 11:34 IST
 "VectorIsEmpty.MultipleElements" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -784,7 +784,7 @@ Test Passed.
 31/173 Test: VectorIsEmpty.PopTillEmpty
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorIsEmpty.PopTillEmpty" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorIsEmpty.PopTillEmpty" start time: Jul 16 00:07 IST
+"VectorIsEmpty.PopTillEmpty" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorIsEmpty.PopTillEmpty
@@ -802,7 +802,7 @@ Note: Google Test filter = VectorIsEmpty.PopTillEmpty
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorIsEmpty.PopTillEmpty" end time: Jul 16 00:07 IST
+"VectorIsEmpty.PopTillEmpty" end time: Jul 16 11:34 IST
 "VectorIsEmpty.PopTillEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -810,7 +810,7 @@ Test Passed.
 32/173 Test: VectorIndex.FirstElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorIndex.FirstElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorIndex.FirstElement" start time: Jul 16 00:07 IST
+"VectorIndex.FirstElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorIndex.FirstElement
@@ -828,7 +828,7 @@ Note: Google Test filter = VectorIndex.FirstElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorIndex.FirstElement" end time: Jul 16 00:07 IST
+"VectorIndex.FirstElement" end time: Jul 16 11:34 IST
 "VectorIndex.FirstElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -836,7 +836,7 @@ Test Passed.
 33/173 Test: VectorIndex.LastElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorIndex.LastElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorIndex.LastElement" start time: Jul 16 00:07 IST
+"VectorIndex.LastElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorIndex.LastElement
@@ -854,7 +854,7 @@ Note: Google Test filter = VectorIndex.LastElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorIndex.LastElement" end time: Jul 16 00:07 IST
+"VectorIndex.LastElement" end time: Jul 16 11:34 IST
 "VectorIndex.LastElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -862,7 +862,7 @@ Test Passed.
 34/173 Test: VectorIndex.ModifyElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorIndex.ModifyElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorIndex.ModifyElement" start time: Jul 16 00:07 IST
+"VectorIndex.ModifyElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorIndex.ModifyElement
@@ -880,7 +880,7 @@ Note: Google Test filter = VectorIndex.ModifyElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorIndex.ModifyElement" end time: Jul 16 00:07 IST
+"VectorIndex.ModifyElement" end time: Jul 16 11:34 IST
 "VectorIndex.ModifyElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -888,7 +888,7 @@ Test Passed.
 35/173 Test: VectorIndex.MultipleAccess
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorIndex.MultipleAccess" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorIndex.MultipleAccess" start time: Jul 16 00:07 IST
+"VectorIndex.MultipleAccess" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorIndex.MultipleAccess
@@ -906,7 +906,7 @@ Note: Google Test filter = VectorIndex.MultipleAccess
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorIndex.MultipleAccess" end time: Jul 16 00:07 IST
+"VectorIndex.MultipleAccess" end time: Jul 16 11:34 IST
 "VectorIndex.MultipleAccess" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -914,7 +914,7 @@ Test Passed.
 36/173 Test: VectorIndex.StringVector
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorIndex.StringVector" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorIndex.StringVector" start time: Jul 16 00:07 IST
+"VectorIndex.StringVector" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorIndex.StringVector
@@ -932,7 +932,7 @@ Note: Google Test filter = VectorIndex.StringVector
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorIndex.StringVector" end time: Jul 16 00:07 IST
+"VectorIndex.StringVector" end time: Jul 16 11:34 IST
 "VectorIndex.StringVector" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -940,7 +940,7 @@ Test Passed.
 37/173 Test: VectorAssignment.BasicAssignment
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorAssignment.BasicAssignment" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorAssignment.BasicAssignment" start time: Jul 16 00:07 IST
+"VectorAssignment.BasicAssignment" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorAssignment.BasicAssignment
@@ -958,7 +958,7 @@ Note: Google Test filter = VectorAssignment.BasicAssignment
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorAssignment.BasicAssignment" end time: Jul 16 00:07 IST
+"VectorAssignment.BasicAssignment" end time: Jul 16 11:34 IST
 "VectorAssignment.BasicAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -966,7 +966,7 @@ Test Passed.
 38/173 Test: VectorAssignment.SizeCopied
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorAssignment.SizeCopied" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorAssignment.SizeCopied" start time: Jul 16 00:07 IST
+"VectorAssignment.SizeCopied" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorAssignment.SizeCopied
@@ -984,7 +984,7 @@ Note: Google Test filter = VectorAssignment.SizeCopied
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorAssignment.SizeCopied" end time: Jul 16 00:07 IST
+"VectorAssignment.SizeCopied" end time: Jul 16 11:34 IST
 "VectorAssignment.SizeCopied" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -992,7 +992,7 @@ Test Passed.
 39/173 Test: VectorAssignment.DeepCopy
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorAssignment.DeepCopy" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorAssignment.DeepCopy" start time: Jul 16 00:07 IST
+"VectorAssignment.DeepCopy" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorAssignment.DeepCopy
@@ -1010,7 +1010,7 @@ Note: Google Test filter = VectorAssignment.DeepCopy
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorAssignment.DeepCopy" end time: Jul 16 00:07 IST
+"VectorAssignment.DeepCopy" end time: Jul 16 11:34 IST
 "VectorAssignment.DeepCopy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1018,7 +1018,7 @@ Test Passed.
 40/173 Test: VectorAssignment.SelfAssignment
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorAssignment.SelfAssignment" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorAssignment.SelfAssignment" start time: Jul 16 00:07 IST
+"VectorAssignment.SelfAssignment" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorAssignment.SelfAssignment
@@ -1036,7 +1036,7 @@ Note: Google Test filter = VectorAssignment.SelfAssignment
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorAssignment.SelfAssignment" end time: Jul 16 00:07 IST
+"VectorAssignment.SelfAssignment" end time: Jul 16 11:34 IST
 "VectorAssignment.SelfAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1044,7 +1044,7 @@ Test Passed.
 41/173 Test: VectorAssignment.ValidCapacityAfterAssignment
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorAssignment.ValidCapacityAfterAssignment" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorAssignment.ValidCapacityAfterAssignment" start time: Jul 16 00:07 IST
+"VectorAssignment.ValidCapacityAfterAssignment" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorAssignment.ValidCapacityAfterAssignment
@@ -1062,7 +1062,7 @@ Note: Google Test filter = VectorAssignment.ValidCapacityAfterAssignment
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorAssignment.ValidCapacityAfterAssignment" end time: Jul 16 00:07 IST
+"VectorAssignment.ValidCapacityAfterAssignment" end time: Jul 16 11:34 IST
 "VectorAssignment.ValidCapacityAfterAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1070,7 +1070,7 @@ Test Passed.
 42/173 Test: VectorCopyConstructor.CopyOneElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorCopyConstructor.CopyOneElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorCopyConstructor.CopyOneElement" start time: Jul 16 00:07 IST
+"VectorCopyConstructor.CopyOneElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorCopyConstructor.CopyOneElement
@@ -1088,7 +1088,7 @@ Note: Google Test filter = VectorCopyConstructor.CopyOneElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorCopyConstructor.CopyOneElement" end time: Jul 16 00:07 IST
+"VectorCopyConstructor.CopyOneElement" end time: Jul 16 11:34 IST
 "VectorCopyConstructor.CopyOneElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1096,7 +1096,7 @@ Test Passed.
 43/173 Test: VectorCopyConstructor.CopySize
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorCopyConstructor.CopySize" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorCopyConstructor.CopySize" start time: Jul 16 00:07 IST
+"VectorCopyConstructor.CopySize" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorCopyConstructor.CopySize
@@ -1114,7 +1114,7 @@ Note: Google Test filter = VectorCopyConstructor.CopySize
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorCopyConstructor.CopySize" end time: Jul 16 00:07 IST
+"VectorCopyConstructor.CopySize" end time: Jul 16 11:34 IST
 "VectorCopyConstructor.CopySize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1122,7 +1122,7 @@ Test Passed.
 44/173 Test: VectorCopyConstructor.DeepCopy
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorCopyConstructor.DeepCopy" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorCopyConstructor.DeepCopy" start time: Jul 16 00:07 IST
+"VectorCopyConstructor.DeepCopy" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorCopyConstructor.DeepCopy
@@ -1140,7 +1140,7 @@ Note: Google Test filter = VectorCopyConstructor.DeepCopy
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorCopyConstructor.DeepCopy" end time: Jul 16 00:07 IST
+"VectorCopyConstructor.DeepCopy" end time: Jul 16 11:34 IST
 "VectorCopyConstructor.DeepCopy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1148,7 +1148,7 @@ Test Passed.
 45/173 Test: VectorCopyConstructor.ValidCapacityAfterCopy
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorCopyConstructor.ValidCapacityAfterCopy" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorCopyConstructor.ValidCapacityAfterCopy" start time: Jul 16 00:07 IST
+"VectorCopyConstructor.ValidCapacityAfterCopy" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorCopyConstructor.ValidCapacityAfterCopy
@@ -1166,7 +1166,7 @@ Note: Google Test filter = VectorCopyConstructor.ValidCapacityAfterCopy
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorCopyConstructor.ValidCapacityAfterCopy" end time: Jul 16 00:07 IST
+"VectorCopyConstructor.ValidCapacityAfterCopy" end time: Jul 16 11:34 IST
 "VectorCopyConstructor.ValidCapacityAfterCopy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1174,7 +1174,7 @@ Test Passed.
 46/173 Test: VectorCopyConstructor.CopyEmptyVector
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorCopyConstructor.CopyEmptyVector" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorCopyConstructor.CopyEmptyVector" start time: Jul 16 00:07 IST
+"VectorCopyConstructor.CopyEmptyVector" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorCopyConstructor.CopyEmptyVector
@@ -1192,7 +1192,7 @@ Note: Google Test filter = VectorCopyConstructor.CopyEmptyVector
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorCopyConstructor.CopyEmptyVector" end time: Jul 16 00:07 IST
+"VectorCopyConstructor.CopyEmptyVector" end time: Jul 16 11:34 IST
 "VectorCopyConstructor.CopyEmptyVector" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1200,7 +1200,7 @@ Test Passed.
 47/173 Test: LinkedListConstructor.DefaultConstructor
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListConstructor.DefaultConstructor" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListConstructor.DefaultConstructor" start time: Jul 16 00:07 IST
+"LinkedListConstructor.DefaultConstructor" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListConstructor.DefaultConstructor
@@ -1218,7 +1218,7 @@ Note: Google Test filter = LinkedListConstructor.DefaultConstructor
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListConstructor.DefaultConstructor" end time: Jul 16 00:07 IST
+"LinkedListConstructor.DefaultConstructor" end time: Jul 16 11:34 IST
 "LinkedListConstructor.DefaultConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1226,7 +1226,7 @@ Test Passed.
 48/173 Test: LinkedListConstructor.SizeInitiallyZero
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListConstructor.SizeInitiallyZero" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListConstructor.SizeInitiallyZero" start time: Jul 16 00:07 IST
+"LinkedListConstructor.SizeInitiallyZero" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListConstructor.SizeInitiallyZero
@@ -1241,10 +1241,10 @@ Note: Google Test filter = LinkedListConstructor.SizeInitiallyZero
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListConstructor.SizeInitiallyZero" end time: Jul 16 00:07 IST
+"LinkedListConstructor.SizeInitiallyZero" end time: Jul 16 11:34 IST
 "LinkedListConstructor.SizeInitiallyZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1252,7 +1252,7 @@ Test Passed.
 49/173 Test: LinkedListConstructor.BeginInitiallyNull
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListConstructor.BeginInitiallyNull" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListConstructor.BeginInitiallyNull" start time: Jul 16 00:07 IST
+"LinkedListConstructor.BeginInitiallyNull" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListConstructor.BeginInitiallyNull
@@ -1270,7 +1270,7 @@ Note: Google Test filter = LinkedListConstructor.BeginInitiallyNull
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListConstructor.BeginInitiallyNull" end time: Jul 16 00:07 IST
+"LinkedListConstructor.BeginInitiallyNull" end time: Jul 16 11:34 IST
 "LinkedListConstructor.BeginInitiallyNull" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1278,7 +1278,7 @@ Test Passed.
 50/173 Test: LinkedListConstructor.EndInitiallyNull
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListConstructor.EndInitiallyNull" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListConstructor.EndInitiallyNull" start time: Jul 16 00:07 IST
+"LinkedListConstructor.EndInitiallyNull" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListConstructor.EndInitiallyNull
@@ -1296,7 +1296,7 @@ Note: Google Test filter = LinkedListConstructor.EndInitiallyNull
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListConstructor.EndInitiallyNull" end time: Jul 16 00:07 IST
+"LinkedListConstructor.EndInitiallyNull" end time: Jul 16 11:34 IST
 "LinkedListConstructor.EndInitiallyNull" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1304,7 +1304,7 @@ Test Passed.
 51/173 Test: LinkedListConstructor.EmptyList
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListConstructor.EmptyList" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListConstructor.EmptyList" start time: Jul 16 00:07 IST
+"LinkedListConstructor.EmptyList" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListConstructor.EmptyList
@@ -1322,7 +1322,7 @@ Note: Google Test filter = LinkedListConstructor.EmptyList
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListConstructor.EmptyList" end time: Jul 16 00:07 IST
+"LinkedListConstructor.EmptyList" end time: Jul 16 11:34 IST
 "LinkedListConstructor.EmptyList" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1330,7 +1330,7 @@ Test Passed.
 52/173 Test: LinkedListPush.PushOne
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListPush.PushOne" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListPush.PushOne" start time: Jul 16 00:07 IST
+"LinkedListPush.PushOne" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListPush.PushOne
@@ -1348,7 +1348,7 @@ Note: Google Test filter = LinkedListPush.PushOne
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListPush.PushOne" end time: Jul 16 00:07 IST
+"LinkedListPush.PushOne" end time: Jul 16 11:34 IST
 "LinkedListPush.PushOne" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1356,7 +1356,7 @@ Test Passed.
 53/173 Test: LinkedListPush.PushMultiple
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListPush.PushMultiple" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListPush.PushMultiple" start time: Jul 16 00:07 IST
+"LinkedListPush.PushMultiple" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListPush.PushMultiple
@@ -1374,7 +1374,7 @@ Note: Google Test filter = LinkedListPush.PushMultiple
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListPush.PushMultiple" end time: Jul 16 00:07 IST
+"LinkedListPush.PushMultiple" end time: Jul 16 11:34 IST
 "LinkedListPush.PushMultiple" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1382,7 +1382,7 @@ Test Passed.
 54/173 Test: LinkedListPush.FirstElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListPush.FirstElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListPush.FirstElement" start time: Jul 16 00:07 IST
+"LinkedListPush.FirstElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListPush.FirstElement
@@ -1400,7 +1400,7 @@ Note: Google Test filter = LinkedListPush.FirstElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListPush.FirstElement" end time: Jul 16 00:07 IST
+"LinkedListPush.FirstElement" end time: Jul 16 11:34 IST
 "LinkedListPush.FirstElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1408,7 +1408,7 @@ Test Passed.
 55/173 Test: LinkedListPush.PreserveOrder
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListPush.PreserveOrder" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListPush.PreserveOrder" start time: Jul 16 00:07 IST
+"LinkedListPush.PreserveOrder" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListPush.PreserveOrder
@@ -1426,7 +1426,7 @@ Note: Google Test filter = LinkedListPush.PreserveOrder
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListPush.PreserveOrder" end time: Jul 16 00:07 IST
+"LinkedListPush.PreserveOrder" end time: Jul 16 11:34 IST
 "LinkedListPush.PreserveOrder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1434,7 +1434,7 @@ Test Passed.
 56/173 Test: LinkedListPush.PushString
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListPush.PushString" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListPush.PushString" start time: Jul 16 00:07 IST
+"LinkedListPush.PushString" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListPush.PushString
@@ -1452,7 +1452,7 @@ Note: Google Test filter = LinkedListPush.PushString
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListPush.PushString" end time: Jul 16 00:07 IST
+"LinkedListPush.PushString" end time: Jul 16 11:34 IST
 "LinkedListPush.PushString" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1460,7 +1460,7 @@ Test Passed.
 57/173 Test: LinkedListPop.PopOne
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListPop.PopOne" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListPop.PopOne" start time: Jul 16 00:07 IST
+"LinkedListPop.PopOne" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListPop.PopOne
@@ -1475,10 +1475,10 @@ Note: Google Test filter = LinkedListPop.PopOne
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListPop.PopOne" end time: Jul 16 00:07 IST
+"LinkedListPop.PopOne" end time: Jul 16 11:34 IST
 "LinkedListPop.PopOne" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1486,7 +1486,7 @@ Test Passed.
 58/173 Test: LinkedListPop.PopReducesSize
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListPop.PopReducesSize" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListPop.PopReducesSize" start time: Jul 16 00:07 IST
+"LinkedListPop.PopReducesSize" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListPop.PopReducesSize
@@ -1504,7 +1504,7 @@ Note: Google Test filter = LinkedListPop.PopReducesSize
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListPop.PopReducesSize" end time: Jul 16 00:07 IST
+"LinkedListPop.PopReducesSize" end time: Jul 16 11:34 IST
 "LinkedListPop.PopReducesSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1512,7 +1512,7 @@ Test Passed.
 59/173 Test: LinkedListPop.PopKeepsFirst
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListPop.PopKeepsFirst" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListPop.PopKeepsFirst" start time: Jul 16 00:07 IST
+"LinkedListPop.PopKeepsFirst" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListPop.PopKeepsFirst
@@ -1530,7 +1530,7 @@ Note: Google Test filter = LinkedListPop.PopKeepsFirst
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListPop.PopKeepsFirst" end time: Jul 16 00:07 IST
+"LinkedListPop.PopKeepsFirst" end time: Jul 16 11:34 IST
 "LinkedListPop.PopKeepsFirst" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1538,7 +1538,7 @@ Test Passed.
 60/173 Test: LinkedListPop.PopAll
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListPop.PopAll" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListPop.PopAll" start time: Jul 16 00:07 IST
+"LinkedListPop.PopAll" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListPop.PopAll
@@ -1556,7 +1556,7 @@ Note: Google Test filter = LinkedListPop.PopAll
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListPop.PopAll" end time: Jul 16 00:07 IST
+"LinkedListPop.PopAll" end time: Jul 16 11:34 IST
 "LinkedListPop.PopAll" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1564,7 +1564,7 @@ Test Passed.
 61/173 Test: LinkedListPop.PopEmptyThrows
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListPop.PopEmptyThrows" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListPop.PopEmptyThrows" start time: Jul 16 00:07 IST
+"LinkedListPop.PopEmptyThrows" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListPop.PopEmptyThrows
@@ -1582,7 +1582,7 @@ Note: Google Test filter = LinkedListPop.PopEmptyThrows
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListPop.PopEmptyThrows" end time: Jul 16 00:07 IST
+"LinkedListPop.PopEmptyThrows" end time: Jul 16 11:34 IST
 "LinkedListPop.PopEmptyThrows" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1590,7 +1590,7 @@ Test Passed.
 62/173 Test: LinkedListDelete.DeleteHead
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListDelete.DeleteHead" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListDelete.DeleteHead" start time: Jul 16 00:07 IST
+"LinkedListDelete.DeleteHead" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListDelete.DeleteHead
@@ -1608,7 +1608,7 @@ Note: Google Test filter = LinkedListDelete.DeleteHead
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListDelete.DeleteHead" end time: Jul 16 00:07 IST
+"LinkedListDelete.DeleteHead" end time: Jul 16 11:34 IST
 "LinkedListDelete.DeleteHead" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1616,7 +1616,7 @@ Test Passed.
 63/173 Test: LinkedListDelete.DeleteTail
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListDelete.DeleteTail" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListDelete.DeleteTail" start time: Jul 16 00:07 IST
+"LinkedListDelete.DeleteTail" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListDelete.DeleteTail
@@ -1631,10 +1631,10 @@ Note: Google Test filter = LinkedListDelete.DeleteTail
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListDelete.DeleteTail" end time: Jul 16 00:07 IST
+"LinkedListDelete.DeleteTail" end time: Jul 16 11:34 IST
 "LinkedListDelete.DeleteTail" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1642,7 +1642,7 @@ Test Passed.
 64/173 Test: LinkedListDelete.DeleteMiddle
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListDelete.DeleteMiddle" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListDelete.DeleteMiddle" start time: Jul 16 00:07 IST
+"LinkedListDelete.DeleteMiddle" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListDelete.DeleteMiddle
@@ -1660,7 +1660,7 @@ Note: Google Test filter = LinkedListDelete.DeleteMiddle
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListDelete.DeleteMiddle" end time: Jul 16 00:07 IST
+"LinkedListDelete.DeleteMiddle" end time: Jul 16 11:34 IST
 "LinkedListDelete.DeleteMiddle" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1668,7 +1668,7 @@ Test Passed.
 65/173 Test: LinkedListDelete.DeleteMissing
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListDelete.DeleteMissing" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListDelete.DeleteMissing" start time: Jul 16 00:07 IST
+"LinkedListDelete.DeleteMissing" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListDelete.DeleteMissing
@@ -1686,7 +1686,7 @@ Note: Google Test filter = LinkedListDelete.DeleteMissing
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListDelete.DeleteMissing" end time: Jul 16 00:07 IST
+"LinkedListDelete.DeleteMissing" end time: Jul 16 11:34 IST
 "LinkedListDelete.DeleteMissing" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1694,7 +1694,7 @@ Test Passed.
 66/173 Test: LinkedListDelete.DeleteOnlyNode
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListDelete.DeleteOnlyNode" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListDelete.DeleteOnlyNode" start time: Jul 16 00:07 IST
+"LinkedListDelete.DeleteOnlyNode" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListDelete.DeleteOnlyNode
@@ -1712,7 +1712,7 @@ Note: Google Test filter = LinkedListDelete.DeleteOnlyNode
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListDelete.DeleteOnlyNode" end time: Jul 16 00:07 IST
+"LinkedListDelete.DeleteOnlyNode" end time: Jul 16 11:34 IST
 "LinkedListDelete.DeleteOnlyNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1720,7 +1720,7 @@ Test Passed.
 67/173 Test: LinkedListSize.InitiallyZero
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListSize.InitiallyZero" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListSize.InitiallyZero" start time: Jul 16 00:07 IST
+"LinkedListSize.InitiallyZero" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListSize.InitiallyZero
@@ -1738,7 +1738,7 @@ Note: Google Test filter = LinkedListSize.InitiallyZero
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListSize.InitiallyZero" end time: Jul 16 00:07 IST
+"LinkedListSize.InitiallyZero" end time: Jul 16 11:34 IST
 "LinkedListSize.InitiallyZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1746,7 +1746,7 @@ Test Passed.
 68/173 Test: LinkedListSize.AfterOnePush
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListSize.AfterOnePush" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListSize.AfterOnePush" start time: Jul 16 00:07 IST
+"LinkedListSize.AfterOnePush" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListSize.AfterOnePush
@@ -1764,7 +1764,7 @@ Note: Google Test filter = LinkedListSize.AfterOnePush
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListSize.AfterOnePush" end time: Jul 16 00:07 IST
+"LinkedListSize.AfterOnePush" end time: Jul 16 11:34 IST
 "LinkedListSize.AfterOnePush" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1772,7 +1772,7 @@ Test Passed.
 69/173 Test: LinkedListSize.AfterMultiplePush
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListSize.AfterMultiplePush" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListSize.AfterMultiplePush" start time: Jul 16 00:07 IST
+"LinkedListSize.AfterMultiplePush" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListSize.AfterMultiplePush
@@ -1790,7 +1790,7 @@ Note: Google Test filter = LinkedListSize.AfterMultiplePush
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListSize.AfterMultiplePush" end time: Jul 16 00:07 IST
+"LinkedListSize.AfterMultiplePush" end time: Jul 16 11:34 IST
 "LinkedListSize.AfterMultiplePush" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1798,7 +1798,7 @@ Test Passed.
 70/173 Test: LinkedListSize.AfterPop
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListSize.AfterPop" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListSize.AfterPop" start time: Jul 16 00:07 IST
+"LinkedListSize.AfterPop" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListSize.AfterPop
@@ -1816,7 +1816,7 @@ Note: Google Test filter = LinkedListSize.AfterPop
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListSize.AfterPop" end time: Jul 16 00:07 IST
+"LinkedListSize.AfterPop" end time: Jul 16 11:34 IST
 "LinkedListSize.AfterPop" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1824,7 +1824,7 @@ Test Passed.
 71/173 Test: LinkedListSize.AfterDeleteAny
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListSize.AfterDeleteAny" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListSize.AfterDeleteAny" start time: Jul 16 00:07 IST
+"LinkedListSize.AfterDeleteAny" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListSize.AfterDeleteAny
@@ -1842,7 +1842,7 @@ Note: Google Test filter = LinkedListSize.AfterDeleteAny
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListSize.AfterDeleteAny" end time: Jul 16 00:07 IST
+"LinkedListSize.AfterDeleteAny" end time: Jul 16 11:34 IST
 "LinkedListSize.AfterDeleteAny" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1850,7 +1850,7 @@ Test Passed.
 72/173 Test: LinkedListIsEmpty.EmptyList
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListIsEmpty.EmptyList" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListIsEmpty.EmptyList" start time: Jul 16 00:07 IST
+"LinkedListIsEmpty.EmptyList" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListIsEmpty.EmptyList
@@ -1868,7 +1868,7 @@ Note: Google Test filter = LinkedListIsEmpty.EmptyList
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListIsEmpty.EmptyList" end time: Jul 16 00:07 IST
+"LinkedListIsEmpty.EmptyList" end time: Jul 16 11:34 IST
 "LinkedListIsEmpty.EmptyList" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1876,7 +1876,7 @@ Test Passed.
 73/173 Test: LinkedListIsEmpty.AfterPush
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListIsEmpty.AfterPush" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListIsEmpty.AfterPush" start time: Jul 16 00:07 IST
+"LinkedListIsEmpty.AfterPush" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListIsEmpty.AfterPush
@@ -1894,7 +1894,7 @@ Note: Google Test filter = LinkedListIsEmpty.AfterPush
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListIsEmpty.AfterPush" end time: Jul 16 00:07 IST
+"LinkedListIsEmpty.AfterPush" end time: Jul 16 11:34 IST
 "LinkedListIsEmpty.AfterPush" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1902,7 +1902,7 @@ Test Passed.
 74/173 Test: LinkedListIsEmpty.PushThenPop
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListIsEmpty.PushThenPop" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListIsEmpty.PushThenPop" start time: Jul 16 00:07 IST
+"LinkedListIsEmpty.PushThenPop" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListIsEmpty.PushThenPop
@@ -1917,10 +1917,10 @@ Note: Google Test filter = LinkedListIsEmpty.PushThenPop
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListIsEmpty.PushThenPop" end time: Jul 16 00:07 IST
+"LinkedListIsEmpty.PushThenPop" end time: Jul 16 11:34 IST
 "LinkedListIsEmpty.PushThenPop" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1928,7 +1928,7 @@ Test Passed.
 75/173 Test: LinkedListIsEmpty.DeleteOnlyElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListIsEmpty.DeleteOnlyElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListIsEmpty.DeleteOnlyElement" start time: Jul 16 00:07 IST
+"LinkedListIsEmpty.DeleteOnlyElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListIsEmpty.DeleteOnlyElement
@@ -1946,7 +1946,7 @@ Note: Google Test filter = LinkedListIsEmpty.DeleteOnlyElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListIsEmpty.DeleteOnlyElement" end time: Jul 16 00:07 IST
+"LinkedListIsEmpty.DeleteOnlyElement" end time: Jul 16 11:34 IST
 "LinkedListIsEmpty.DeleteOnlyElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1954,7 +1954,7 @@ Test Passed.
 76/173 Test: LinkedListIsEmpty.MultipleElements
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListIsEmpty.MultipleElements" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListIsEmpty.MultipleElements" start time: Jul 16 00:07 IST
+"LinkedListIsEmpty.MultipleElements" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListIsEmpty.MultipleElements
@@ -1972,7 +1972,7 @@ Note: Google Test filter = LinkedListIsEmpty.MultipleElements
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListIsEmpty.MultipleElements" end time: Jul 16 00:07 IST
+"LinkedListIsEmpty.MultipleElements" end time: Jul 16 11:34 IST
 "LinkedListIsEmpty.MultipleElements" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1980,7 +1980,7 @@ Test Passed.
 77/173 Test: LinkedListIndex.FirstElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListIndex.FirstElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListIndex.FirstElement" start time: Jul 16 00:07 IST
+"LinkedListIndex.FirstElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListIndex.FirstElement
@@ -1998,7 +1998,7 @@ Note: Google Test filter = LinkedListIndex.FirstElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListIndex.FirstElement" end time: Jul 16 00:07 IST
+"LinkedListIndex.FirstElement" end time: Jul 16 11:34 IST
 "LinkedListIndex.FirstElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2006,7 +2006,7 @@ Test Passed.
 78/173 Test: LinkedListIndex.LastElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListIndex.LastElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListIndex.LastElement" start time: Jul 16 00:07 IST
+"LinkedListIndex.LastElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListIndex.LastElement
@@ -2024,7 +2024,7 @@ Note: Google Test filter = LinkedListIndex.LastElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListIndex.LastElement" end time: Jul 16 00:07 IST
+"LinkedListIndex.LastElement" end time: Jul 16 11:34 IST
 "LinkedListIndex.LastElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2032,7 +2032,7 @@ Test Passed.
 79/173 Test: LinkedListIndex.ModifyElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListIndex.ModifyElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListIndex.ModifyElement" start time: Jul 16 00:07 IST
+"LinkedListIndex.ModifyElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListIndex.ModifyElement
@@ -2050,7 +2050,7 @@ Note: Google Test filter = LinkedListIndex.ModifyElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListIndex.ModifyElement" end time: Jul 16 00:07 IST
+"LinkedListIndex.ModifyElement" end time: Jul 16 11:34 IST
 "LinkedListIndex.ModifyElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2058,7 +2058,7 @@ Test Passed.
 80/173 Test: LinkedListIndex.StringElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListIndex.StringElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListIndex.StringElement" start time: Jul 16 00:07 IST
+"LinkedListIndex.StringElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListIndex.StringElement
@@ -2076,7 +2076,7 @@ Note: Google Test filter = LinkedListIndex.StringElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListIndex.StringElement" end time: Jul 16 00:07 IST
+"LinkedListIndex.StringElement" end time: Jul 16 11:34 IST
 "LinkedListIndex.StringElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2084,7 +2084,7 @@ Test Passed.
 81/173 Test: LinkedListIndex.OutOfRange
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListIndex.OutOfRange" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListIndex.OutOfRange" start time: Jul 16 00:07 IST
+"LinkedListIndex.OutOfRange" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListIndex.OutOfRange
@@ -2102,7 +2102,7 @@ Note: Google Test filter = LinkedListIndex.OutOfRange
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListIndex.OutOfRange" end time: Jul 16 00:07 IST
+"LinkedListIndex.OutOfRange" end time: Jul 16 11:34 IST
 "LinkedListIndex.OutOfRange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2110,7 +2110,7 @@ Test Passed.
 82/173 Test: LinkedListCopyConstructor.CopyOneNode
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListCopyConstructor.CopyOneNode" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListCopyConstructor.CopyOneNode" start time: Jul 16 00:07 IST
+"LinkedListCopyConstructor.CopyOneNode" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListCopyConstructor.CopyOneNode
@@ -2128,7 +2128,7 @@ Note: Google Test filter = LinkedListCopyConstructor.CopyOneNode
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListCopyConstructor.CopyOneNode" end time: Jul 16 00:07 IST
+"LinkedListCopyConstructor.CopyOneNode" end time: Jul 16 11:34 IST
 "LinkedListCopyConstructor.CopyOneNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2136,7 +2136,7 @@ Test Passed.
 83/173 Test: LinkedListCopyConstructor.CopySize
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListCopyConstructor.CopySize" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListCopyConstructor.CopySize" start time: Jul 16 00:07 IST
+"LinkedListCopyConstructor.CopySize" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListCopyConstructor.CopySize
@@ -2154,7 +2154,7 @@ Note: Google Test filter = LinkedListCopyConstructor.CopySize
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListCopyConstructor.CopySize" end time: Jul 16 00:07 IST
+"LinkedListCopyConstructor.CopySize" end time: Jul 16 11:34 IST
 "LinkedListCopyConstructor.CopySize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2162,7 +2162,7 @@ Test Passed.
 84/173 Test: LinkedListCopyConstructor.DeepCopy
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListCopyConstructor.DeepCopy" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListCopyConstructor.DeepCopy" start time: Jul 16 00:07 IST
+"LinkedListCopyConstructor.DeepCopy" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListCopyConstructor.DeepCopy
@@ -2180,7 +2180,7 @@ Note: Google Test filter = LinkedListCopyConstructor.DeepCopy
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListCopyConstructor.DeepCopy" end time: Jul 16 00:07 IST
+"LinkedListCopyConstructor.DeepCopy" end time: Jul 16 11:34 IST
 "LinkedListCopyConstructor.DeepCopy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2188,7 +2188,7 @@ Test Passed.
 85/173 Test: LinkedListCopyConstructor.CopyEmptyList
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListCopyConstructor.CopyEmptyList" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListCopyConstructor.CopyEmptyList" start time: Jul 16 00:07 IST
+"LinkedListCopyConstructor.CopyEmptyList" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListCopyConstructor.CopyEmptyList
@@ -2203,10 +2203,10 @@ Note: Google Test filter = LinkedListCopyConstructor.CopyEmptyList
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListCopyConstructor.CopyEmptyList" end time: Jul 16 00:07 IST
+"LinkedListCopyConstructor.CopyEmptyList" end time: Jul 16 11:34 IST
 "LinkedListCopyConstructor.CopyEmptyList" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2214,7 +2214,7 @@ Test Passed.
 86/173 Test: LinkedListCopyConstructor.PreserveOrder
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListCopyConstructor.PreserveOrder" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListCopyConstructor.PreserveOrder" start time: Jul 16 00:07 IST
+"LinkedListCopyConstructor.PreserveOrder" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListCopyConstructor.PreserveOrder
@@ -2232,7 +2232,7 @@ Note: Google Test filter = LinkedListCopyConstructor.PreserveOrder
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListCopyConstructor.PreserveOrder" end time: Jul 16 00:07 IST
+"LinkedListCopyConstructor.PreserveOrder" end time: Jul 16 11:34 IST
 "LinkedListCopyConstructor.PreserveOrder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2240,7 +2240,7 @@ Test Passed.
 87/173 Test: LinkedListAssignment.BasicAssignment
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListAssignment.BasicAssignment" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListAssignment.BasicAssignment" start time: Jul 16 00:07 IST
+"LinkedListAssignment.BasicAssignment" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListAssignment.BasicAssignment
@@ -2258,7 +2258,7 @@ Note: Google Test filter = LinkedListAssignment.BasicAssignment
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListAssignment.BasicAssignment" end time: Jul 16 00:07 IST
+"LinkedListAssignment.BasicAssignment" end time: Jul 16 11:34 IST
 "LinkedListAssignment.BasicAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2266,7 +2266,7 @@ Test Passed.
 88/173 Test: LinkedListAssignment.SizeCopied
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListAssignment.SizeCopied" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListAssignment.SizeCopied" start time: Jul 16 00:07 IST
+"LinkedListAssignment.SizeCopied" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListAssignment.SizeCopied
@@ -2281,10 +2281,10 @@ Note: Google Test filter = LinkedListAssignment.SizeCopied
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListAssignment.SizeCopied" end time: Jul 16 00:07 IST
+"LinkedListAssignment.SizeCopied" end time: Jul 16 11:34 IST
 "LinkedListAssignment.SizeCopied" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2292,7 +2292,7 @@ Test Passed.
 89/173 Test: LinkedListAssignment.DeepCopy
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListAssignment.DeepCopy" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListAssignment.DeepCopy" start time: Jul 16 00:07 IST
+"LinkedListAssignment.DeepCopy" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListAssignment.DeepCopy
@@ -2310,7 +2310,7 @@ Note: Google Test filter = LinkedListAssignment.DeepCopy
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListAssignment.DeepCopy" end time: Jul 16 00:07 IST
+"LinkedListAssignment.DeepCopy" end time: Jul 16 11:34 IST
 "LinkedListAssignment.DeepCopy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2318,7 +2318,7 @@ Test Passed.
 90/173 Test: LinkedListAssignment.SelfAssignment
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListAssignment.SelfAssignment" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListAssignment.SelfAssignment" start time: Jul 16 00:07 IST
+"LinkedListAssignment.SelfAssignment" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListAssignment.SelfAssignment
@@ -2333,10 +2333,10 @@ Note: Google Test filter = LinkedListAssignment.SelfAssignment
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListAssignment.SelfAssignment" end time: Jul 16 00:07 IST
+"LinkedListAssignment.SelfAssignment" end time: Jul 16 11:34 IST
 "LinkedListAssignment.SelfAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2344,7 +2344,7 @@ Test Passed.
 91/173 Test: LinkedListAssignment.AssignEmptyList
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListAssignment.AssignEmptyList" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListAssignment.AssignEmptyList" start time: Jul 16 00:07 IST
+"LinkedListAssignment.AssignEmptyList" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListAssignment.AssignEmptyList
@@ -2359,10 +2359,10 @@ Note: Google Test filter = LinkedListAssignment.AssignEmptyList
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListAssignment.AssignEmptyList" end time: Jul 16 00:07 IST
+"LinkedListAssignment.AssignEmptyList" end time: Jul 16 11:34 IST
 "LinkedListAssignment.AssignEmptyList" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2370,7 +2370,7 @@ Test Passed.
 92/173 Test: LinkedListUserDefined.AllOperations
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=LinkedListUserDefined.AllOperations" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"LinkedListUserDefined.AllOperations" start time: Jul 16 00:07 IST
+"LinkedListUserDefined.AllOperations" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = LinkedListUserDefined.AllOperations
@@ -2385,10 +2385,10 @@ Note: Google Test filter = LinkedListUserDefined.AllOperations
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"LinkedListUserDefined.AllOperations" end time: Jul 16 00:07 IST
+"LinkedListUserDefined.AllOperations" end time: Jul 16 11:34 IST
 "LinkedListUserDefined.AllOperations" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2396,7 +2396,7 @@ Test Passed.
 93/173 Test: VectorUserDefined.AllOperations
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=VectorUserDefined.AllOperations" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"VectorUserDefined.AllOperations" start time: Jul 16 00:07 IST
+"VectorUserDefined.AllOperations" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = VectorUserDefined.AllOperations
@@ -2411,10 +2411,10 @@ Note: Google Test filter = VectorUserDefined.AllOperations
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"VectorUserDefined.AllOperations" end time: Jul 16 00:07 IST
+"VectorUserDefined.AllOperations" end time: Jul 16 11:34 IST
 "VectorUserDefined.AllOperations" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2422,7 +2422,7 @@ Test Passed.
 94/173 Test: HashFunctionTest.IntegerHash
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=HashFunctionTest.IntegerHash" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"HashFunctionTest.IntegerHash" start time: Jul 16 00:07 IST
+"HashFunctionTest.IntegerHash" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HashFunctionTest.IntegerHash
@@ -2437,10 +2437,10 @@ Note: Google Test filter = HashFunctionTest.IntegerHash
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"HashFunctionTest.IntegerHash" end time: Jul 16 00:07 IST
+"HashFunctionTest.IntegerHash" end time: Jul 16 11:34 IST
 "HashFunctionTest.IntegerHash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2448,7 +2448,7 @@ Test Passed.
 95/173 Test: HashFunctionTest.CharacterHash
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=HashFunctionTest.CharacterHash" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"HashFunctionTest.CharacterHash" start time: Jul 16 00:07 IST
+"HashFunctionTest.CharacterHash" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HashFunctionTest.CharacterHash
@@ -2463,10 +2463,10 @@ Note: Google Test filter = HashFunctionTest.CharacterHash
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"HashFunctionTest.CharacterHash" end time: Jul 16 00:07 IST
+"HashFunctionTest.CharacterHash" end time: Jul 16 11:34 IST
 "HashFunctionTest.CharacterHash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2474,7 +2474,7 @@ Test Passed.
 96/173 Test: HashFunctionTest.StringHash
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=HashFunctionTest.StringHash" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"HashFunctionTest.StringHash" start time: Jul 16 00:07 IST
+"HashFunctionTest.StringHash" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HashFunctionTest.StringHash
@@ -2492,7 +2492,7 @@ Note: Google Test filter = HashFunctionTest.StringHash
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"HashFunctionTest.StringHash" end time: Jul 16 00:07 IST
+"HashFunctionTest.StringHash" end time: Jul 16 11:34 IST
 "HashFunctionTest.StringHash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2500,7 +2500,7 @@ Test Passed.
 97/173 Test: HashFunctionTest.EmptyString
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=HashFunctionTest.EmptyString" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"HashFunctionTest.EmptyString" start time: Jul 16 00:07 IST
+"HashFunctionTest.EmptyString" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HashFunctionTest.EmptyString
@@ -2518,7 +2518,7 @@ Note: Google Test filter = HashFunctionTest.EmptyString
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"HashFunctionTest.EmptyString" end time: Jul 16 00:07 IST
+"HashFunctionTest.EmptyString" end time: Jul 16 11:34 IST
 "HashFunctionTest.EmptyString" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2526,7 +2526,7 @@ Test Passed.
 98/173 Test: HashFunctionTest.LargeInteger
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=HashFunctionTest.LargeInteger" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"HashFunctionTest.LargeInteger" start time: Jul 16 00:07 IST
+"HashFunctionTest.LargeInteger" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HashFunctionTest.LargeInteger
@@ -2544,7 +2544,7 @@ Note: Google Test filter = HashFunctionTest.LargeInteger
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"HashFunctionTest.LargeInteger" end time: Jul 16 00:07 IST
+"HashFunctionTest.LargeInteger" end time: Jul 16 11:34 IST
 "HashFunctionTest.LargeInteger" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2552,7 +2552,7 @@ Test Passed.
 99/173 Test: ConstructorTest.EmptyMapFind
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=ConstructorTest.EmptyMapFind" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"ConstructorTest.EmptyMapFind" start time: Jul 16 00:07 IST
+"ConstructorTest.EmptyMapFind" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ConstructorTest.EmptyMapFind
@@ -2570,7 +2570,7 @@ Note: Google Test filter = ConstructorTest.EmptyMapFind
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ConstructorTest.EmptyMapFind" end time: Jul 16 00:07 IST
+"ConstructorTest.EmptyMapFind" end time: Jul 16 11:34 IST
 "ConstructorTest.EmptyMapFind" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2578,7 +2578,7 @@ Test Passed.
 100/173 Test: ConstructorTest.PushAfterConstruction
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=ConstructorTest.PushAfterConstruction" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"ConstructorTest.PushAfterConstruction" start time: Jul 16 00:07 IST
+"ConstructorTest.PushAfterConstruction" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ConstructorTest.PushAfterConstruction
@@ -2596,7 +2596,7 @@ Note: Google Test filter = ConstructorTest.PushAfterConstruction
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ConstructorTest.PushAfterConstruction" end time: Jul 16 00:07 IST
+"ConstructorTest.PushAfterConstruction" end time: Jul 16 11:34 IST
 "ConstructorTest.PushAfterConstruction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2604,7 +2604,7 @@ Test Passed.
 101/173 Test: ConstructorTest.DifferentType
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=ConstructorTest.DifferentType" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"ConstructorTest.DifferentType" start time: Jul 16 00:07 IST
+"ConstructorTest.DifferentType" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ConstructorTest.DifferentType
@@ -2622,7 +2622,7 @@ Note: Google Test filter = ConstructorTest.DifferentType
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ConstructorTest.DifferentType" end time: Jul 16 00:07 IST
+"ConstructorTest.DifferentType" end time: Jul 16 11:34 IST
 "ConstructorTest.DifferentType" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2630,7 +2630,7 @@ Test Passed.
 102/173 Test: ConstructorTest.CharKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=ConstructorTest.CharKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"ConstructorTest.CharKey" start time: Jul 16 00:07 IST
+"ConstructorTest.CharKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ConstructorTest.CharKey
@@ -2645,10 +2645,10 @@ Note: Google Test filter = ConstructorTest.CharKey
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ConstructorTest.CharKey" end time: Jul 16 00:07 IST
+"ConstructorTest.CharKey" end time: Jul 16 11:34 IST
 "ConstructorTest.CharKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2656,7 +2656,7 @@ Test Passed.
 103/173 Test: ConstructorTest.FloatValue
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=ConstructorTest.FloatValue" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"ConstructorTest.FloatValue" start time: Jul 16 00:07 IST
+"ConstructorTest.FloatValue" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ConstructorTest.FloatValue
@@ -2674,7 +2674,7 @@ Note: Google Test filter = ConstructorTest.FloatValue
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ConstructorTest.FloatValue" end time: Jul 16 00:07 IST
+"ConstructorTest.FloatValue" end time: Jul 16 11:34 IST
 "ConstructorTest.FloatValue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2682,7 +2682,7 @@ Test Passed.
 104/173 Test: CopyConstructorTest.CopySingleElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=CopyConstructorTest.CopySingleElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"CopyConstructorTest.CopySingleElement" start time: Jul 16 00:07 IST
+"CopyConstructorTest.CopySingleElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CopyConstructorTest.CopySingleElement
@@ -2700,7 +2700,7 @@ Note: Google Test filter = CopyConstructorTest.CopySingleElement
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"CopyConstructorTest.CopySingleElement" end time: Jul 16 00:07 IST
+"CopyConstructorTest.CopySingleElement" end time: Jul 16 11:34 IST
 "CopyConstructorTest.CopySingleElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2708,7 +2708,7 @@ Test Passed.
 105/173 Test: CopyConstructorTest.CopyMultipleElements
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=CopyConstructorTest.CopyMultipleElements" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"CopyConstructorTest.CopyMultipleElements" start time: Jul 16 00:07 IST
+"CopyConstructorTest.CopyMultipleElements" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CopyConstructorTest.CopyMultipleElements
@@ -2723,10 +2723,10 @@ Note: Google Test filter = CopyConstructorTest.CopyMultipleElements
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"CopyConstructorTest.CopyMultipleElements" end time: Jul 16 00:07 IST
+"CopyConstructorTest.CopyMultipleElements" end time: Jul 16 11:34 IST
 "CopyConstructorTest.CopyMultipleElements" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2734,7 +2734,7 @@ Test Passed.
 106/173 Test: CopyConstructorTest.DeepCopy
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=CopyConstructorTest.DeepCopy" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"CopyConstructorTest.DeepCopy" start time: Jul 16 00:07 IST
+"CopyConstructorTest.DeepCopy" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CopyConstructorTest.DeepCopy
@@ -2752,7 +2752,7 @@ Note: Google Test filter = CopyConstructorTest.DeepCopy
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"CopyConstructorTest.DeepCopy" end time: Jul 16 00:07 IST
+"CopyConstructorTest.DeepCopy" end time: Jul 16 11:34 IST
 "CopyConstructorTest.DeepCopy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2760,7 +2760,7 @@ Test Passed.
 107/173 Test: CopyConstructorTest.CopyEmptyMap
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=CopyConstructorTest.CopyEmptyMap" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"CopyConstructorTest.CopyEmptyMap" start time: Jul 16 00:07 IST
+"CopyConstructorTest.CopyEmptyMap" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CopyConstructorTest.CopyEmptyMap
@@ -2775,10 +2775,10 @@ Note: Google Test filter = CopyConstructorTest.CopyEmptyMap
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"CopyConstructorTest.CopyEmptyMap" end time: Jul 16 00:07 IST
+"CopyConstructorTest.CopyEmptyMap" end time: Jul 16 11:34 IST
 "CopyConstructorTest.CopyEmptyMap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2786,7 +2786,7 @@ Test Passed.
 108/173 Test: CopyConstructorTest.CopyAfterRehash
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=CopyConstructorTest.CopyAfterRehash" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"CopyConstructorTest.CopyAfterRehash" start time: Jul 16 00:07 IST
+"CopyConstructorTest.CopyAfterRehash" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = CopyConstructorTest.CopyAfterRehash
@@ -2801,10 +2801,10 @@ Note: Google Test filter = CopyConstructorTest.CopyAfterRehash
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"CopyConstructorTest.CopyAfterRehash" end time: Jul 16 00:07 IST
+"CopyConstructorTest.CopyAfterRehash" end time: Jul 16 11:34 IST
 "CopyConstructorTest.CopyAfterRehash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2812,7 +2812,7 @@ Test Passed.
 109/173 Test: AssignmentTest.BasicAssignment
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=AssignmentTest.BasicAssignment" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"AssignmentTest.BasicAssignment" start time: Jul 16 00:07 IST
+"AssignmentTest.BasicAssignment" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = AssignmentTest.BasicAssignment
@@ -2830,7 +2830,7 @@ Note: Google Test filter = AssignmentTest.BasicAssignment
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"AssignmentTest.BasicAssignment" end time: Jul 16 00:07 IST
+"AssignmentTest.BasicAssignment" end time: Jul 16 11:34 IST
 "AssignmentTest.BasicAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2838,7 +2838,7 @@ Test Passed.
 110/173 Test: AssignmentTest.MultipleElements
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=AssignmentTest.MultipleElements" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"AssignmentTest.MultipleElements" start time: Jul 16 00:07 IST
+"AssignmentTest.MultipleElements" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = AssignmentTest.MultipleElements
@@ -2853,10 +2853,10 @@ Note: Google Test filter = AssignmentTest.MultipleElements
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"AssignmentTest.MultipleElements" end time: Jul 16 00:07 IST
+"AssignmentTest.MultipleElements" end time: Jul 16 11:34 IST
 "AssignmentTest.MultipleElements" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2864,7 +2864,7 @@ Test Passed.
 111/173 Test: AssignmentTest.SelfAssignment
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=AssignmentTest.SelfAssignment" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"AssignmentTest.SelfAssignment" start time: Jul 16 00:07 IST
+"AssignmentTest.SelfAssignment" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = AssignmentTest.SelfAssignment
@@ -2879,10 +2879,10 @@ Note: Google Test filter = AssignmentTest.SelfAssignment
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"AssignmentTest.SelfAssignment" end time: Jul 16 00:07 IST
+"AssignmentTest.SelfAssignment" end time: Jul 16 11:34 IST
 "AssignmentTest.SelfAssignment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2890,7 +2890,7 @@ Test Passed.
 112/173 Test: AssignmentTest.DeepCopy
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=AssignmentTest.DeepCopy" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"AssignmentTest.DeepCopy" start time: Jul 16 00:07 IST
+"AssignmentTest.DeepCopy" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = AssignmentTest.DeepCopy
@@ -2905,10 +2905,10 @@ Note: Google Test filter = AssignmentTest.DeepCopy
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"AssignmentTest.DeepCopy" end time: Jul 16 00:07 IST
+"AssignmentTest.DeepCopy" end time: Jul 16 11:34 IST
 "AssignmentTest.DeepCopy" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2916,7 +2916,7 @@ Test Passed.
 113/173 Test: AssignmentTest.AssignEmptyMap
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=AssignmentTest.AssignEmptyMap" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"AssignmentTest.AssignEmptyMap" start time: Jul 16 00:07 IST
+"AssignmentTest.AssignEmptyMap" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = AssignmentTest.AssignEmptyMap
@@ -2931,10 +2931,10 @@ Note: Google Test filter = AssignmentTest.AssignEmptyMap
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"AssignmentTest.AssignEmptyMap" end time: Jul 16 00:07 IST
+"AssignmentTest.AssignEmptyMap" end time: Jul 16 11:34 IST
 "AssignmentTest.AssignEmptyMap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2942,7 +2942,7 @@ Test Passed.
 114/173 Test: PushTest.InsertOneElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=PushTest.InsertOneElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"PushTest.InsertOneElement" start time: Jul 16 00:07 IST
+"PushTest.InsertOneElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PushTest.InsertOneElement
@@ -2957,10 +2957,10 @@ Note: Google Test filter = PushTest.InsertOneElement
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"PushTest.InsertOneElement" end time: Jul 16 00:07 IST
+"PushTest.InsertOneElement" end time: Jul 16 11:34 IST
 "PushTest.InsertOneElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2968,7 +2968,7 @@ Test Passed.
 115/173 Test: PushTest.InsertMultipleElements
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=PushTest.InsertMultipleElements" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"PushTest.InsertMultipleElements" start time: Jul 16 00:07 IST
+"PushTest.InsertMultipleElements" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PushTest.InsertMultipleElements
@@ -2983,10 +2983,10 @@ Note: Google Test filter = PushTest.InsertMultipleElements
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"PushTest.InsertMultipleElements" end time: Jul 16 00:07 IST
+"PushTest.InsertMultipleElements" end time: Jul 16 11:34 IST
 "PushTest.InsertMultipleElements" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -2994,7 +2994,7 @@ Test Passed.
 116/173 Test: PushTest.UpdateExistingKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=PushTest.UpdateExistingKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"PushTest.UpdateExistingKey" start time: Jul 16 00:07 IST
+"PushTest.UpdateExistingKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PushTest.UpdateExistingKey
@@ -3009,10 +3009,10 @@ Note: Google Test filter = PushTest.UpdateExistingKey
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"PushTest.UpdateExistingKey" end time: Jul 16 00:07 IST
+"PushTest.UpdateExistingKey" end time: Jul 16 11:34 IST
 "PushTest.UpdateExistingKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3020,7 +3020,7 @@ Test Passed.
 117/173 Test: PushTest.InsertNegativeKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=PushTest.InsertNegativeKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"PushTest.InsertNegativeKey" start time: Jul 16 00:07 IST
+"PushTest.InsertNegativeKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PushTest.InsertNegativeKey
@@ -3035,10 +3035,10 @@ Note: Google Test filter = PushTest.InsertNegativeKey
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"PushTest.InsertNegativeKey" end time: Jul 16 00:07 IST
+"PushTest.InsertNegativeKey" end time: Jul 16 11:34 IST
 "PushTest.InsertNegativeKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3046,7 +3046,7 @@ Test Passed.
 118/173 Test: PushTest.RehashInsertion
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=PushTest.RehashInsertion" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"PushTest.RehashInsertion" start time: Jul 16 00:07 IST
+"PushTest.RehashInsertion" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PushTest.RehashInsertion
@@ -3061,10 +3061,10 @@ Note: Google Test filter = PushTest.RehashInsertion
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"PushTest.RehashInsertion" end time: Jul 16 00:07 IST
+"PushTest.RehashInsertion" end time: Jul 16 11:34 IST
 "PushTest.RehashInsertion" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3072,7 +3072,7 @@ Test Passed.
 119/173 Test: FindTest.ExistingKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=FindTest.ExistingKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"FindTest.ExistingKey" start time: Jul 16 00:07 IST
+"FindTest.ExistingKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FindTest.ExistingKey
@@ -3087,10 +3087,10 @@ Note: Google Test filter = FindTest.ExistingKey
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"FindTest.ExistingKey" end time: Jul 16 00:07 IST
+"FindTest.ExistingKey" end time: Jul 16 11:34 IST
 "FindTest.ExistingKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3098,7 +3098,7 @@ Test Passed.
 120/173 Test: FindTest.NonExistingKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=FindTest.NonExistingKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"FindTest.NonExistingKey" start time: Jul 16 00:07 IST
+"FindTest.NonExistingKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FindTest.NonExistingKey
@@ -3113,10 +3113,10 @@ Note: Google Test filter = FindTest.NonExistingKey
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"FindTest.NonExistingKey" end time: Jul 16 00:07 IST
+"FindTest.NonExistingKey" end time: Jul 16 11:34 IST
 "FindTest.NonExistingKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3124,7 +3124,7 @@ Test Passed.
 121/173 Test: FindTest.CorrectValue
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=FindTest.CorrectValue" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"FindTest.CorrectValue" start time: Jul 16 00:07 IST
+"FindTest.CorrectValue" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FindTest.CorrectValue
@@ -3139,10 +3139,10 @@ Note: Google Test filter = FindTest.CorrectValue
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"FindTest.CorrectValue" end time: Jul 16 00:07 IST
+"FindTest.CorrectValue" end time: Jul 16 11:34 IST
 "FindTest.CorrectValue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3150,7 +3150,7 @@ Test Passed.
 122/173 Test: FindTest.MultipleInsertions
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=FindTest.MultipleInsertions" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"FindTest.MultipleInsertions" start time: Jul 16 00:07 IST
+"FindTest.MultipleInsertions" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FindTest.MultipleInsertions
@@ -3168,7 +3168,7 @@ Note: Google Test filter = FindTest.MultipleInsertions
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"FindTest.MultipleInsertions" end time: Jul 16 00:07 IST
+"FindTest.MultipleInsertions" end time: Jul 16 11:34 IST
 "FindTest.MultipleInsertions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3176,7 +3176,7 @@ Test Passed.
 123/173 Test: FindTest.FindAfterUpdate
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=FindTest.FindAfterUpdate" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"FindTest.FindAfterUpdate" start time: Jul 16 00:07 IST
+"FindTest.FindAfterUpdate" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = FindTest.FindAfterUpdate
@@ -3194,7 +3194,7 @@ Note: Google Test filter = FindTest.FindAfterUpdate
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"FindTest.FindAfterUpdate" end time: Jul 16 00:07 IST
+"FindTest.FindAfterUpdate" end time: Jul 16 11:34 IST
 "FindTest.FindAfterUpdate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3202,7 +3202,7 @@ Test Passed.
 124/173 Test: PopTest.RemoveSingleElement
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=PopTest.RemoveSingleElement" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"PopTest.RemoveSingleElement" start time: Jul 16 00:07 IST
+"PopTest.RemoveSingleElement" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PopTest.RemoveSingleElement
@@ -3220,7 +3220,7 @@ Note: Google Test filter = PopTest.RemoveSingleElement
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"PopTest.RemoveSingleElement" end time: Jul 16 00:07 IST
+"PopTest.RemoveSingleElement" end time: Jul 16 11:34 IST
 "PopTest.RemoveSingleElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3228,7 +3228,7 @@ Test Passed.
 125/173 Test: PopTest.RemoveMiddle
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=PopTest.RemoveMiddle" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"PopTest.RemoveMiddle" start time: Jul 16 00:07 IST
+"PopTest.RemoveMiddle" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PopTest.RemoveMiddle
@@ -3243,10 +3243,10 @@ Note: Google Test filter = PopTest.RemoveMiddle
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"PopTest.RemoveMiddle" end time: Jul 16 00:07 IST
+"PopTest.RemoveMiddle" end time: Jul 16 11:34 IST
 "PopTest.RemoveMiddle" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3254,7 +3254,7 @@ Test Passed.
 126/173 Test: PopTest.RemoveLast
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=PopTest.RemoveLast" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"PopTest.RemoveLast" start time: Jul 16 00:07 IST
+"PopTest.RemoveLast" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PopTest.RemoveLast
@@ -3269,10 +3269,10 @@ Note: Google Test filter = PopTest.RemoveLast
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"PopTest.RemoveLast" end time: Jul 16 00:07 IST
+"PopTest.RemoveLast" end time: Jul 16 11:34 IST
 "PopTest.RemoveLast" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3280,7 +3280,7 @@ Test Passed.
 127/173 Test: PopTest.RemoveMissingKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=PopTest.RemoveMissingKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"PopTest.RemoveMissingKey" start time: Jul 16 00:07 IST
+"PopTest.RemoveMissingKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PopTest.RemoveMissingKey
@@ -3295,10 +3295,10 @@ Note: Google Test filter = PopTest.RemoveMissingKey
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"PopTest.RemoveMissingKey" end time: Jul 16 00:07 IST
+"PopTest.RemoveMissingKey" end time: Jul 16 11:34 IST
 "PopTest.RemoveMissingKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3306,7 +3306,7 @@ Test Passed.
 128/173 Test: PopTest.RemoveAfterRehash
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=PopTest.RemoveAfterRehash" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"PopTest.RemoveAfterRehash" start time: Jul 16 00:07 IST
+"PopTest.RemoveAfterRehash" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = PopTest.RemoveAfterRehash
@@ -3321,10 +3321,10 @@ Note: Google Test filter = PopTest.RemoveAfterRehash
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"PopTest.RemoveAfterRehash" end time: Jul 16 00:07 IST
+"PopTest.RemoveAfterRehash" end time: Jul 16 11:34 IST
 "PopTest.RemoveAfterRehash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3332,7 +3332,7 @@ Test Passed.
 129/173 Test: BracketTest.InsertUsingBracket
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=BracketTest.InsertUsingBracket" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"BracketTest.InsertUsingBracket" start time: Jul 16 00:07 IST
+"BracketTest.InsertUsingBracket" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BracketTest.InsertUsingBracket
@@ -3347,10 +3347,10 @@ Note: Google Test filter = BracketTest.InsertUsingBracket
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"BracketTest.InsertUsingBracket" end time: Jul 16 00:07 IST
+"BracketTest.InsertUsingBracket" end time: Jul 16 11:34 IST
 "BracketTest.InsertUsingBracket" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3358,7 +3358,7 @@ Test Passed.
 130/173 Test: BracketTest.UpdateUsingBracket
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=BracketTest.UpdateUsingBracket" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"BracketTest.UpdateUsingBracket" start time: Jul 16 00:07 IST
+"BracketTest.UpdateUsingBracket" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BracketTest.UpdateUsingBracket
@@ -3376,7 +3376,7 @@ Note: Google Test filter = BracketTest.UpdateUsingBracket
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"BracketTest.UpdateUsingBracket" end time: Jul 16 00:07 IST
+"BracketTest.UpdateUsingBracket" end time: Jul 16 11:34 IST
 "BracketTest.UpdateUsingBracket" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3384,7 +3384,7 @@ Test Passed.
 131/173 Test: BracketTest.DefaultInitialization
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=BracketTest.DefaultInitialization" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"BracketTest.DefaultInitialization" start time: Jul 16 00:07 IST
+"BracketTest.DefaultInitialization" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BracketTest.DefaultInitialization
@@ -3399,10 +3399,10 @@ Note: Google Test filter = BracketTest.DefaultInitialization
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"BracketTest.DefaultInitialization" end time: Jul 16 00:07 IST
+"BracketTest.DefaultInitialization" end time: Jul 16 11:34 IST
 "BracketTest.DefaultInitialization" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3410,7 +3410,7 @@ Test Passed.
 132/173 Test: BracketTest.MultipleKeys
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=BracketTest.MultipleKeys" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"BracketTest.MultipleKeys" start time: Jul 16 00:07 IST
+"BracketTest.MultipleKeys" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BracketTest.MultipleKeys
@@ -3425,10 +3425,10 @@ Note: Google Test filter = BracketTest.MultipleKeys
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"BracketTest.MultipleKeys" end time: Jul 16 00:07 IST
+"BracketTest.MultipleKeys" end time: Jul 16 11:34 IST
 "BracketTest.MultipleKeys" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3436,7 +3436,7 @@ Test Passed.
 133/173 Test: BracketTest.StringValues
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=BracketTest.StringValues" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"BracketTest.StringValues" start time: Jul 16 00:07 IST
+"BracketTest.StringValues" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = BracketTest.StringValues
@@ -3451,10 +3451,10 @@ Note: Google Test filter = BracketTest.StringValues
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"BracketTest.StringValues" end time: Jul 16 00:07 IST
+"BracketTest.StringValues" end time: Jul 16 11:34 IST
 "BracketTest.StringValues" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3462,7 +3462,7 @@ Test Passed.
 134/173 Test: HashMapKeysTest.EmptyMap
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=HashMapKeysTest.EmptyMap" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"HashMapKeysTest.EmptyMap" start time: Jul 16 00:07 IST
+"HashMapKeysTest.EmptyMap" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HashMapKeysTest.EmptyMap
@@ -3477,10 +3477,10 @@ Note: Google Test filter = HashMapKeysTest.EmptyMap
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMapKeysTest.EmptyMap" end time: Jul 16 00:07 IST
+"HashMapKeysTest.EmptyMap" end time: Jul 16 11:34 IST
 "HashMapKeysTest.EmptyMap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3488,7 +3488,7 @@ Test Passed.
 135/173 Test: HashMapKeysTest.SingleKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=HashMapKeysTest.SingleKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"HashMapKeysTest.SingleKey" start time: Jul 16 00:07 IST
+"HashMapKeysTest.SingleKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HashMapKeysTest.SingleKey
@@ -3503,10 +3503,10 @@ Note: Google Test filter = HashMapKeysTest.SingleKey
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMapKeysTest.SingleKey" end time: Jul 16 00:07 IST
+"HashMapKeysTest.SingleKey" end time: Jul 16 11:34 IST
 "HashMapKeysTest.SingleKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3514,7 +3514,7 @@ Test Passed.
 136/173 Test: HashMapKeysTest.MultipleKeys
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=HashMapKeysTest.MultipleKeys" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"HashMapKeysTest.MultipleKeys" start time: Jul 16 00:07 IST
+"HashMapKeysTest.MultipleKeys" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HashMapKeysTest.MultipleKeys
@@ -3532,7 +3532,7 @@ Note: Google Test filter = HashMapKeysTest.MultipleKeys
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMapKeysTest.MultipleKeys" end time: Jul 16 00:07 IST
+"HashMapKeysTest.MultipleKeys" end time: Jul 16 11:34 IST
 "HashMapKeysTest.MultipleKeys" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3540,7 +3540,7 @@ Test Passed.
 137/173 Test: HashMapKeysTest.AfterDeletion
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=HashMapKeysTest.AfterDeletion" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"HashMapKeysTest.AfterDeletion" start time: Jul 16 00:07 IST
+"HashMapKeysTest.AfterDeletion" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HashMapKeysTest.AfterDeletion
@@ -3555,10 +3555,10 @@ Note: Google Test filter = HashMapKeysTest.AfterDeletion
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMapKeysTest.AfterDeletion" end time: Jul 16 00:07 IST
+"HashMapKeysTest.AfterDeletion" end time: Jul 16 11:34 IST
 "HashMapKeysTest.AfterDeletion" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3566,7 +3566,7 @@ Test Passed.
 138/173 Test: HashMapKeysTest.AfterRehash
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=HashMapKeysTest.AfterRehash" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"HashMapKeysTest.AfterRehash" start time: Jul 16 00:07 IST
+"HashMapKeysTest.AfterRehash" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = HashMapKeysTest.AfterRehash
@@ -3584,7 +3584,7 @@ Note: Google Test filter = HashMapKeysTest.AfterRehash
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"HashMapKeysTest.AfterRehash" end time: Jul 16 00:07 IST
+"HashMapKeysTest.AfterRehash" end time: Jul 16 11:34 IST
 "HashMapKeysTest.AfterRehash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3592,7 +3592,7 @@ Test Passed.
 139/173 Test: RehashTest.InsertMany
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=RehashTest.InsertMany" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"RehashTest.InsertMany" start time: Jul 16 00:07 IST
+"RehashTest.InsertMany" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = RehashTest.InsertMany
@@ -3607,10 +3607,10 @@ Note: Google Test filter = RehashTest.InsertMany
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"RehashTest.InsertMany" end time: Jul 16 00:07 IST
+"RehashTest.InsertMany" end time: Jul 16 11:34 IST
 "RehashTest.InsertMany" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3618,7 +3618,7 @@ Test Passed.
 140/173 Test: RehashTest.ValuesRemainCorrect
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=RehashTest.ValuesRemainCorrect" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"RehashTest.ValuesRemainCorrect" start time: Jul 16 00:07 IST
+"RehashTest.ValuesRemainCorrect" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = RehashTest.ValuesRemainCorrect
@@ -3633,10 +3633,10 @@ Note: Google Test filter = RehashTest.ValuesRemainCorrect
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"RehashTest.ValuesRemainCorrect" end time: Jul 16 00:07 IST
+"RehashTest.ValuesRemainCorrect" end time: Jul 16 11:34 IST
 "RehashTest.ValuesRemainCorrect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3644,7 +3644,7 @@ Test Passed.
 141/173 Test: RehashTest.SearchAfterRehash
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=RehashTest.SearchAfterRehash" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"RehashTest.SearchAfterRehash" start time: Jul 16 00:07 IST
+"RehashTest.SearchAfterRehash" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = RehashTest.SearchAfterRehash
@@ -3659,10 +3659,10 @@ Note: Google Test filter = RehashTest.SearchAfterRehash
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"RehashTest.SearchAfterRehash" end time: Jul 16 00:07 IST
+"RehashTest.SearchAfterRehash" end time: Jul 16 11:34 IST
 "RehashTest.SearchAfterRehash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3670,7 +3670,7 @@ Test Passed.
 142/173 Test: RehashTest.UpdateAfterRehash
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=RehashTest.UpdateAfterRehash" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"RehashTest.UpdateAfterRehash" start time: Jul 16 00:07 IST
+"RehashTest.UpdateAfterRehash" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = RehashTest.UpdateAfterRehash
@@ -3685,10 +3685,10 @@ Note: Google Test filter = RehashTest.UpdateAfterRehash
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"RehashTest.UpdateAfterRehash" end time: Jul 16 00:07 IST
+"RehashTest.UpdateAfterRehash" end time: Jul 16 11:34 IST
 "RehashTest.UpdateAfterRehash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3696,7 +3696,7 @@ Test Passed.
 143/173 Test: RehashTest.RemoveAfterRehash
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=RehashTest.RemoveAfterRehash" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"RehashTest.RemoveAfterRehash" start time: Jul 16 00:07 IST
+"RehashTest.RemoveAfterRehash" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = RehashTest.RemoveAfterRehash
@@ -3711,10 +3711,10 @@ Note: Google Test filter = RehashTest.RemoveAfterRehash
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"RehashTest.RemoveAfterRehash" end time: Jul 16 00:07 IST
+"RehashTest.RemoveAfterRehash" end time: Jul 16 11:34 IST
 "RehashTest.RemoveAfterRehash" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3722,7 +3722,7 @@ Test Passed.
 144/173 Test: UserDefinedTest.InsertObject
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=UserDefinedTest.InsertObject" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"UserDefinedTest.InsertObject" start time: Jul 16 00:07 IST
+"UserDefinedTest.InsertObject" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = UserDefinedTest.InsertObject
@@ -3737,10 +3737,10 @@ Note: Google Test filter = UserDefinedTest.InsertObject
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"UserDefinedTest.InsertObject" end time: Jul 16 00:07 IST
+"UserDefinedTest.InsertObject" end time: Jul 16 11:34 IST
 "UserDefinedTest.InsertObject" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3748,7 +3748,7 @@ Test Passed.
 145/173 Test: UserDefinedTest.MultipleObjects
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=UserDefinedTest.MultipleObjects" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"UserDefinedTest.MultipleObjects" start time: Jul 16 00:07 IST
+"UserDefinedTest.MultipleObjects" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = UserDefinedTest.MultipleObjects
@@ -3763,10 +3763,10 @@ Note: Google Test filter = UserDefinedTest.MultipleObjects
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"UserDefinedTest.MultipleObjects" end time: Jul 16 00:07 IST
+"UserDefinedTest.MultipleObjects" end time: Jul 16 11:34 IST
 "UserDefinedTest.MultipleObjects" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3774,7 +3774,7 @@ Test Passed.
 146/173 Test: UserDefinedTest.UpdateExistingKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=UserDefinedTest.UpdateExistingKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"UserDefinedTest.UpdateExistingKey" start time: Jul 16 00:07 IST
+"UserDefinedTest.UpdateExistingKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = UserDefinedTest.UpdateExistingKey
@@ -3789,10 +3789,10 @@ Note: Google Test filter = UserDefinedTest.UpdateExistingKey
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"UserDefinedTest.UpdateExistingKey" end time: Jul 16 00:07 IST
+"UserDefinedTest.UpdateExistingKey" end time: Jul 16 11:34 IST
 "UserDefinedTest.UpdateExistingKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3800,7 +3800,7 @@ Test Passed.
 147/173 Test: UserDefinedTest.OperatorBracket
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=UserDefinedTest.OperatorBracket" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"UserDefinedTest.OperatorBracket" start time: Jul 16 00:07 IST
+"UserDefinedTest.OperatorBracket" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = UserDefinedTest.OperatorBracket
@@ -3815,10 +3815,10 @@ Note: Google Test filter = UserDefinedTest.OperatorBracket
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"UserDefinedTest.OperatorBracket" end time: Jul 16 00:07 IST
+"UserDefinedTest.OperatorBracket" end time: Jul 16 11:34 IST
 "UserDefinedTest.OperatorBracket" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3826,7 +3826,7 @@ Test Passed.
 148/173 Test: UserDefinedTest.RehashWithObjects
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=UserDefinedTest.RehashWithObjects" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"UserDefinedTest.RehashWithObjects" start time: Jul 16 00:07 IST
+"UserDefinedTest.RehashWithObjects" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = UserDefinedTest.RehashWithObjects
@@ -3841,10 +3841,10 @@ Note: Google Test filter = UserDefinedTest.RehashWithObjects
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"UserDefinedTest.RehashWithObjects" end time: Jul 16 00:07 IST
+"UserDefinedTest.RehashWithObjects" end time: Jul 16 11:34 IST
 "UserDefinedTest.RehashWithObjects" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3852,7 +3852,7 @@ Test Passed.
 149/173 Test: DeleteTest.DeleteExistingKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=DeleteTest.DeleteExistingKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"DeleteTest.DeleteExistingKey" start time: Jul 16 00:07 IST
+"DeleteTest.DeleteExistingKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = DeleteTest.DeleteExistingKey
@@ -3868,10 +3868,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"DeleteTest.DeleteExistingKey" end time: Jul 16 00:07 IST
+"DeleteTest.DeleteExistingKey" end time: Jul 16 11:34 IST
 "DeleteTest.DeleteExistingKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3879,7 +3879,7 @@ Test Passed.
 150/173 Test: DeleteTest.DeleteMissingKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=DeleteTest.DeleteMissingKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"DeleteTest.DeleteMissingKey" start time: Jul 16 00:07 IST
+"DeleteTest.DeleteMissingKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = DeleteTest.DeleteMissingKey
@@ -3898,7 +3898,7 @@ Welcome to RedisLite
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"DeleteTest.DeleteMissingKey" end time: Jul 16 00:07 IST
+"DeleteTest.DeleteMissingKey" end time: Jul 16 11:34 IST
 "DeleteTest.DeleteMissingKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3906,7 +3906,7 @@ Test Passed.
 151/173 Test: DeleteTest.DeleteOneOfMany
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=DeleteTest.DeleteOneOfMany" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"DeleteTest.DeleteOneOfMany" start time: Jul 16 00:07 IST
+"DeleteTest.DeleteOneOfMany" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = DeleteTest.DeleteOneOfMany
@@ -3922,10 +3922,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"DeleteTest.DeleteOneOfMany" end time: Jul 16 00:07 IST
+"DeleteTest.DeleteOneOfMany" end time: Jul 16 11:34 IST
 "DeleteTest.DeleteOneOfMany" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3933,7 +3933,7 @@ Test Passed.
 152/173 Test: DeleteTest.DeleteTwice
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=DeleteTest.DeleteTwice" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"DeleteTest.DeleteTwice" start time: Jul 16 00:07 IST
+"DeleteTest.DeleteTwice" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = DeleteTest.DeleteTwice
@@ -3949,10 +3949,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"DeleteTest.DeleteTwice" end time: Jul 16 00:07 IST
+"DeleteTest.DeleteTwice" end time: Jul 16 11:34 IST
 "DeleteTest.DeleteTwice" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3960,7 +3960,7 @@ Test Passed.
 153/173 Test: DeleteTest.SizeAfterDelete
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=DeleteTest.SizeAfterDelete" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"DeleteTest.SizeAfterDelete" start time: Jul 16 00:07 IST
+"DeleteTest.SizeAfterDelete" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = DeleteTest.SizeAfterDelete
@@ -3979,7 +3979,7 @@ Welcome to RedisLite
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"DeleteTest.SizeAfterDelete" end time: Jul 16 00:07 IST
+"DeleteTest.SizeAfterDelete" end time: Jul 16 11:34 IST
 "DeleteTest.SizeAfterDelete" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -3987,7 +3987,7 @@ Test Passed.
 154/173 Test: KeysTest.EmptyKeys
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=KeysTest.EmptyKeys" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"KeysTest.EmptyKeys" start time: Jul 16 00:07 IST
+"KeysTest.EmptyKeys" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = KeysTest.EmptyKeys
@@ -4003,10 +4003,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"KeysTest.EmptyKeys" end time: Jul 16 00:07 IST
+"KeysTest.EmptyKeys" end time: Jul 16 11:34 IST
 "KeysTest.EmptyKeys" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4014,7 +4014,7 @@ Test Passed.
 155/173 Test: KeysTest.OneKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=KeysTest.OneKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"KeysTest.OneKey" start time: Jul 16 00:07 IST
+"KeysTest.OneKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = KeysTest.OneKey
@@ -4030,10 +4030,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"KeysTest.OneKey" end time: Jul 16 00:07 IST
+"KeysTest.OneKey" end time: Jul 16 11:34 IST
 "KeysTest.OneKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4041,7 +4041,7 @@ Test Passed.
 156/173 Test: KeysTest.MultipleKeys
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=KeysTest.MultipleKeys" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"KeysTest.MultipleKeys" start time: Jul 16 00:07 IST
+"KeysTest.MultipleKeys" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = KeysTest.MultipleKeys
@@ -4057,10 +4057,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"KeysTest.MultipleKeys" end time: Jul 16 00:07 IST
+"KeysTest.MultipleKeys" end time: Jul 16 11:34 IST
 "KeysTest.MultipleKeys" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4068,7 +4068,7 @@ Test Passed.
 157/173 Test: KeysTest.AfterDelete
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=KeysTest.AfterDelete" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"KeysTest.AfterDelete" start time: Jul 16 00:07 IST
+"KeysTest.AfterDelete" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = KeysTest.AfterDelete
@@ -4084,10 +4084,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"KeysTest.AfterDelete" end time: Jul 16 00:07 IST
+"KeysTest.AfterDelete" end time: Jul 16 11:34 IST
 "KeysTest.AfterDelete" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4095,7 +4095,7 @@ Test Passed.
 158/173 Test: KeysTest.AfterManyInsertions
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=KeysTest.AfterManyInsertions" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"KeysTest.AfterManyInsertions" start time: Jul 16 00:07 IST
+"KeysTest.AfterManyInsertions" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = KeysTest.AfterManyInsertions
@@ -4111,10 +4111,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"KeysTest.AfterManyInsertions" end time: Jul 16 00:07 IST
+"KeysTest.AfterManyInsertions" end time: Jul 16 11:34 IST
 "KeysTest.AfterManyInsertions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4122,7 +4122,7 @@ Test Passed.
 159/173 Test: SetGetTest.InsertSingleKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=SetGetTest.InsertSingleKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"SetGetTest.InsertSingleKey" start time: Jul 16 00:07 IST
+"SetGetTest.InsertSingleKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SetGetTest.InsertSingleKey
@@ -4138,10 +4138,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"SetGetTest.InsertSingleKey" end time: Jul 16 00:07 IST
+"SetGetTest.InsertSingleKey" end time: Jul 16 11:34 IST
 "SetGetTest.InsertSingleKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4149,7 +4149,7 @@ Test Passed.
 160/173 Test: SetGetTest.UpdateExistingKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=SetGetTest.UpdateExistingKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"SetGetTest.UpdateExistingKey" start time: Jul 16 00:07 IST
+"SetGetTest.UpdateExistingKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SetGetTest.UpdateExistingKey
@@ -4165,10 +4165,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"SetGetTest.UpdateExistingKey" end time: Jul 16 00:07 IST
+"SetGetTest.UpdateExistingKey" end time: Jul 16 11:34 IST
 "SetGetTest.UpdateExistingKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4176,7 +4176,7 @@ Test Passed.
 161/173 Test: SetGetTest.MultipleKeys
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=SetGetTest.MultipleKeys" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"SetGetTest.MultipleKeys" start time: Jul 16 00:07 IST
+"SetGetTest.MultipleKeys" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SetGetTest.MultipleKeys
@@ -4195,7 +4195,7 @@ Welcome to RedisLite
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"SetGetTest.MultipleKeys" end time: Jul 16 00:07 IST
+"SetGetTest.MultipleKeys" end time: Jul 16 11:34 IST
 "SetGetTest.MultipleKeys" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4203,7 +4203,7 @@ Test Passed.
 162/173 Test: SetGetTest.EmptyValue
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=SetGetTest.EmptyValue" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"SetGetTest.EmptyValue" start time: Jul 16 00:07 IST
+"SetGetTest.EmptyValue" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SetGetTest.EmptyValue
@@ -4219,10 +4219,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"SetGetTest.EmptyValue" end time: Jul 16 00:07 IST
+"SetGetTest.EmptyValue" end time: Jul 16 11:34 IST
 "SetGetTest.EmptyValue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4230,7 +4230,7 @@ Test Passed.
 163/173 Test: SetGetTest.LongString
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=SetGetTest.LongString" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"SetGetTest.LongString" start time: Jul 16 00:07 IST
+"SetGetTest.LongString" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SetGetTest.LongString
@@ -4246,10 +4246,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"SetGetTest.LongString" end time: Jul 16 00:07 IST
+"SetGetTest.LongString" end time: Jul 16 11:34 IST
 "SetGetTest.LongString" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4257,7 +4257,7 @@ Test Passed.
 164/173 Test: ExistsTest.ExistingKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=ExistsTest.ExistingKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"ExistsTest.ExistingKey" start time: Jul 16 00:07 IST
+"ExistsTest.ExistingKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ExistsTest.ExistingKey
@@ -4273,10 +4273,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ExistsTest.ExistingKey" end time: Jul 16 00:07 IST
+"ExistsTest.ExistingKey" end time: Jul 16 11:34 IST
 "ExistsTest.ExistingKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4284,7 +4284,7 @@ Test Passed.
 165/173 Test: ExistsTest.MissingKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=ExistsTest.MissingKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"ExistsTest.MissingKey" start time: Jul 16 00:07 IST
+"ExistsTest.MissingKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ExistsTest.MissingKey
@@ -4300,10 +4300,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ExistsTest.MissingKey" end time: Jul 16 00:07 IST
+"ExistsTest.MissingKey" end time: Jul 16 11:34 IST
 "ExistsTest.MissingKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4311,7 +4311,7 @@ Test Passed.
 166/173 Test: ExistsTest.AfterDelete
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=ExistsTest.AfterDelete" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"ExistsTest.AfterDelete" start time: Jul 16 00:07 IST
+"ExistsTest.AfterDelete" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ExistsTest.AfterDelete
@@ -4327,10 +4327,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ExistsTest.AfterDelete" end time: Jul 16 00:07 IST
+"ExistsTest.AfterDelete" end time: Jul 16 11:34 IST
 "ExistsTest.AfterDelete" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4338,7 +4338,7 @@ Test Passed.
 167/173 Test: ExistsTest.MultipleKeys
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=ExistsTest.MultipleKeys" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"ExistsTest.MultipleKeys" start time: Jul 16 00:07 IST
+"ExistsTest.MultipleKeys" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ExistsTest.MultipleKeys
@@ -4354,10 +4354,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ExistsTest.MultipleKeys" end time: Jul 16 00:07 IST
+"ExistsTest.MultipleKeys" end time: Jul 16 11:34 IST
 "ExistsTest.MultipleKeys" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4365,7 +4365,7 @@ Test Passed.
 168/173 Test: ExistsTest.EmptyMap
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=ExistsTest.EmptyMap" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"ExistsTest.EmptyMap" start time: Jul 16 00:07 IST
+"ExistsTest.EmptyMap" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ExistsTest.EmptyMap
@@ -4381,10 +4381,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ExistsTest.EmptyMap" end time: Jul 16 00:07 IST
+"ExistsTest.EmptyMap" end time: Jul 16 11:34 IST
 "ExistsTest.EmptyMap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4392,7 +4392,7 @@ Test Passed.
 169/173 Test: SizeTest.InitiallyZero
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=SizeTest.InitiallyZero" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"SizeTest.InitiallyZero" start time: Jul 16 00:07 IST
+"SizeTest.InitiallyZero" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SizeTest.InitiallyZero
@@ -4408,10 +4408,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"SizeTest.InitiallyZero" end time: Jul 16 00:07 IST
+"SizeTest.InitiallyZero" end time: Jul 16 11:34 IST
 "SizeTest.InitiallyZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4419,7 +4419,7 @@ Test Passed.
 170/173 Test: SizeTest.OneInsertion
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=SizeTest.OneInsertion" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"SizeTest.OneInsertion" start time: Jul 16 00:07 IST
+"SizeTest.OneInsertion" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SizeTest.OneInsertion
@@ -4438,7 +4438,7 @@ Welcome to RedisLite
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"SizeTest.OneInsertion" end time: Jul 16 00:07 IST
+"SizeTest.OneInsertion" end time: Jul 16 11:34 IST
 "SizeTest.OneInsertion" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4446,7 +4446,7 @@ Test Passed.
 171/173 Test: SizeTest.MultipleInsertions
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=SizeTest.MultipleInsertions" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"SizeTest.MultipleInsertions" start time: Jul 16 00:07 IST
+"SizeTest.MultipleInsertions" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SizeTest.MultipleInsertions
@@ -4462,10 +4462,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"SizeTest.MultipleInsertions" end time: Jul 16 00:07 IST
+"SizeTest.MultipleInsertions" end time: Jul 16 11:34 IST
 "SizeTest.MultipleInsertions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4473,7 +4473,7 @@ Test Passed.
 172/173 Test: SizeTest.AfterDelete
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=SizeTest.AfterDelete" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"SizeTest.AfterDelete" start time: Jul 16 00:07 IST
+"SizeTest.AfterDelete" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SizeTest.AfterDelete
@@ -4489,10 +4489,10 @@ Welcome to RedisLite
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"SizeTest.AfterDelete" end time: Jul 16 00:07 IST
+"SizeTest.AfterDelete" end time: Jul 16 11:34 IST
 "SizeTest.AfterDelete" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -4500,7 +4500,7 @@ Test Passed.
 173/173 Test: SizeTest.DuplicateKey
 Command: "/Users/aayushsharma/dslibrary/build/runTests" "--gtest_filter=SizeTest.DuplicateKey" "--gtest_also_run_disabled_tests"
 Directory: /Users/aayushsharma/dslibrary/build
-"SizeTest.DuplicateKey" start time: Jul 16 00:07 IST
+"SizeTest.DuplicateKey" start time: Jul 16 11:34 IST
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SizeTest.DuplicateKey
@@ -4519,8 +4519,8 @@ Welcome to RedisLite
 Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"SizeTest.DuplicateKey" end time: Jul 16 00:07 IST
+"SizeTest.DuplicateKey" end time: Jul 16 11:34 IST
 "SizeTest.DuplicateKey" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jul 16 00:07 IST
+End testing: Jul 16 11:34 IST

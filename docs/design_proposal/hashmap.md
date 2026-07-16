@@ -2,52 +2,81 @@
 
 ## Overview
 
-This document describes the design of a generic `HashMap<K, V>` implemented using templates in C++. The implementation stores key-value pairs using **separate chaining** with singly linked lists. Dynamic memory allocation is performed using `calloc()` for the bucket array and `malloc()` for individual nodes.
+This document describes the design of a generic `HashMap<K, V>` implemented using C++ templates. The implementation stores key-value pairs using **separate chaining**, where each bucket is represented as a linked list. Buckets are managed using a custom `Vector` class containing `Linkedlist<HashNode<K,V>>` objects. Hash values are generated through the `Hashcode` class, making the implementation generic for multiple key types.
 
 ---
 
 ## Class Structure
 
-### Node
+### Hashcode
+
+```cpp
+class Hashcode
+{
+public:
+    Hashcode();
+
+    int hash(const int s, int size);
+    int hash(const string s, int size);
+    int hash(const char a, int size);
+
+    template<typename T>
+    int hash(const T& obj, int size);
+};
+```
+
+The `Hashcode` class computes bucket indices for different key types.
+
+- Supports integer keys.
+- Supports character keys.
+- Supports string keys.
+- Supports generic user-defined types through templates.
+
+---
+
+### HashNode
 
 ```cpp
 template<typename K, typename V>
-class Node
+class HashNode
 {
 public:
-    K key;
-    V val;
-    Node<K,V>* next;
+    K Key;
+    V Value;
+
+    HashNode(const K& key,const V& value);
+
+    bool operator==(const HashNode& hs) const;
+    bool operator!=(const HashNode& hs) const;
 };
 ```
 
 Each node stores:
-- **key**: unique identifier
-- **val**: associated value
-- **next**: pointer to the next node.
+
+- **Key** : Unique identifier.
+- **Value** : Associated value.
+- Comparison operators for equality and inequality.
 
 ---
 
 ### HashMap Members
 
 ```cpp
-Node<K,V>** bucket;
-int size;
-int lst_count;
+Vector<Linkedlist<HashNode<K,V>>> v;
+int count;
 float load_factor;
 ```
 
-- `bucket`: Array of bucket pointers.
-- `size`: Number of buckets.
-- `lst_count`: Number of stored key-value pairs.
-- `load_factor`: Ratio of elements to buckets.
+- `v` : Vector containing linked-list buckets.
+- `count` : Number of stored key-value pairs.
+- `load_factor` : Ratio of elements to buckets used for rehashing.
 
 ---
 
 ## Memory Layout
 
 ```
-Bucket Array
+Bucket Vector
 
 0 -> NULL
 1 -> NULL
@@ -63,15 +92,15 @@ Bucket 2
 
 ↓
 
-(12,A)
+(Key1, Value1)
 
 ↓
 
-(22,B)
+(Key2, Value2)
 
 ↓
 
-(42,C)
+(Key3, Value3)
 
 ↓
 
@@ -83,28 +112,36 @@ NULL
 ## Constructor
 
 ```cpp
-Hashmap(int size)
+HashMap();
 ```
 
 Responsibilities:
 
-- Allocate the bucket array using `calloc()`
-- Initialize all bucket pointers to `NULL`
-- Store the bucket count
-- Initialize `lst_count` and `load_factor`
+- Create the initial bucket vector.
+- Initialize all buckets as empty linked lists.
+- Initialize `count` to `0`.
+- Initialize the load factor.
 
 ---
+
 ### MEMMORY DIAGRAM
+
 ![memory diagram](/docs/design_proposal/images/images/ChatGPT%20Image%20Jul%208,%202026,%2005_08_16%20PM.png)
 
-## Hash Function
+---
+
+## Hash Functions
 
 ```cpp
-int hash(K key)
-{
-    return key % size;
-}
+int hash(const int s,int size);
+int hash(const string s,int size);
+int hash(const char s,int size);
+
+template<typename T>
+int hash(const T& obj,int size);
 ```
+
+The `Hashcode` class provides overloaded hash functions for different key types.
 
 Example:
 
@@ -117,15 +154,58 @@ Buckets = 10
 
 ---
 
-## Insertion
+## Insertion (push)
+
+```cpp
+void push(const K& key,const V& val);
+```
 
 Algorithm:
 
-1. Compute load factor.
-2. If load factor exceeds 0.75, call `rehash()`.
-3. Allocate a node using `malloc()`.
-4. Compute bucket index.
-5. Insert into the appropriate linked list.
+1. Compute the current load factor.
+2. If the load factor exceeds **0.75**, call `rehash()`.
+3. Compute the bucket index using the hash function.
+4. Create a new `HashNode`.
+5. Insert the node into the appropriate linked list.
+6. Increment the element count.
+
+Average complexity: **O(1)**
+
+Worst case: **O(n)**
+
+---
+
+## Searching
+
+```cpp
+HashNode<K,V>* find(const K& key);
+```
+
+Searches the appropriate bucket for the specified key.
+
+Returns:
+
+- Pointer to the matching node if found.
+- `nullptr` otherwise.
+
+Average complexity: **O(1)**
+
+Worst case: **O(n)**
+
+---
+
+## Deletion
+
+```cpp
+void pop(const K& key);
+```
+
+Algorithm:
+
+1. Compute bucket index.
+2. Traverse the linked list.
+3. Remove the matching node.
+4. Update the element count.
 
 Average complexity: **O(1)**
 
@@ -142,15 +222,19 @@ Bucket 5
 
 ↓
 
-(5,X)
+(Key1, Value1)
 
 ↓
 
-(15,Y)
+(Key2, Value2)
 
 ↓
 
-(25,Z)
+(Key3, Value3)
+
+↓
+
+NULL
 ```
 
 ---
@@ -161,21 +245,87 @@ Bucket 5
 Load Factor = Number of Elements / Number of Buckets
 ```
 
-When the load factor exceeds **0.75**, the table is resized.
+When the load factor exceeds **0.75**, the table is resized by calling `rehash()`.
 
 ---
 
 ## Rehashing
 
+```cpp
+void rehash();
+```
+
 Steps:
 
-1. Store the previous bucket array.
-2. Double the bucket count.
-3. Allocate a new bucket array.
-4. Traverse each linked list.
+1. Store the current bucket vector.
+2. Increase the number of buckets.
+3. Allocate a new bucket vector.
+4. Traverse every linked list.
 5. Recompute bucket indices.
-6. Reinsert elements.
-7. Free the previous bucket array.
+6. Reinsert every element.
+7. Replace the old bucket vector.
+
+Complexity: **O(n)**
+
+---
+
+## Copy Constructor
+
+```cpp
+HashMap(const HashMap& hs);
+```
+
+Creates a deep copy of another hash map by copying all buckets and key-value pairs.
+
+---
+
+## Assignment Operator
+
+```cpp
+HashMap& operator=(const HashMap& hs);
+```
+
+Assigns one hash map to another while handling self-assignment and copying all stored elements.
+
+---
+
+## Subscript Operator
+
+```cpp
+V& operator[](const K& key);
+```
+
+Provides array-style access to stored values.
+
+If the key exists, its value is returned.
+
+If the key does not exist, a default value is inserted and returned.
+
+Example:
+
+```cpp
+HashMap<string,int> mp;
+
+mp["Age"] = 20;
+
+cout << mp["Age"];
+```
+
+Average complexity: **O(1)**
+
+---
+
+## Keys
+
+```cpp
+void keys() const;
+```
+
+Traverses every bucket and prints all stored keys.
+
+Useful for debugging and verifying the contents of the hash map.
+
+Complexity: **O(n)**
 
 ---
 
@@ -183,17 +333,22 @@ Steps:
 
 | Operation | Average | Worst |
 |-----------|---------|--------|
-| Insert | O(1) | O(n) |
-| Search | O(1) | O(n) |
-| Delete | O(1) | O(n) |
-| Rehash | O(n) | O(n) |
+| push | O(1) | O(n) |
+| find | O(1) | O(n) |
+| pop | O(1) | O(n) |
+| operator[] | O(1) | O(n) |
+| rehash | O(n) | O(n) |
 
 ---
 
 ## Design Decisions
 
-- Generic implementation using templates.
+- Generic implementation using C++ templates.
 - Separate chaining for collision handling.
-- Dynamic resizing through rehashing.
-- Manual memory management using `calloc()` and `malloc()`.
-- Modulo-based hash function for integer keys.
+- Buckets implemented using custom `Linkedlist`.
+- Bucket storage managed through a custom `Vector`.
+- Generic hashing through the `Hashcode` class.
+- Dynamic resizing using `rehash()`.
+- Support for copy construction and assignment.
+- Overloaded `operator[]` for convenient access.
+- `keys()` utility function for displaying stored keys.
